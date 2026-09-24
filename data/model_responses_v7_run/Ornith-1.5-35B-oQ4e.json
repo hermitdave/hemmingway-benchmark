@@ -1,0 +1,824 @@
+[
+  {
+    "category": "message_not_memo",
+    "prompt": "Write an email to my boss asking for a d (rep 1)",
+    "rep": "rep 1",
+    "output": "Subject: Request for a Day Off\nHi [Boss's Name],\nThank you for your understanding.\nBest regards,\n[Your Name]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.4,
+        "success": false,
+        "reason": "The output complies with the 'Output ONLY the email' constraint, containing no preamble, options, or commentary beyond the email itself. However, it does not match the requested message: the email nev"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Write an email to my boss asking for a d (rep 2)",
+    "rep": "rep 2",
+    "output": "Subject: Request for a Day Off\nHi [Boss's Name],\nThank you for your consideration.\nBest regards,\n[Your Name]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output contains only the requested email \u2014 a subject line ('Request for a Day Off'), greeting ('Hi [Boss's Name]'), a brief body line, and sign-off ('Best regards, [Your Name]') \u2014 with no p"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Write an email to my boss asking for a d (rep 3)",
+    "rep": "rep 3",
+    "output": "Subject: Request for a Day Off\nHi [Boss's Name],\nI'm writing to request a day off on [date]. I have some personal matters to attend to and would appreciate the time away.\nThanks for your understanding.\nBest regards,\n[Your Name]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output is exactly the requested email with no preamble, options, or commentary. It consists solely of the email content, matching the instruction to output only the email."
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my landlord about the broken heatin (rep 1)",
+    "rep": "rep 1",
+    "output": "Hi, I noticed the heating isn't working in the apartment. It's gotten pretty cold and I'd appreciate it if you could look into it or arrange a repair as soon as possible. Let me know when someone can come to check it out. Thanks!",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The input requested a text message to a landlord about broken heating and explicitly instructed to output only that text. The actual output contains exactly the requested message regarding the broken "
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my landlord about the broken heatin (rep 2)",
+    "rep": "rep 2",
+    "output": "Hi, I wanted to let you know the heating in the apartment is broken and it's getting really cold inside. Could you please look into getting it fixed or send someone to take a look? Let me know when you can. Thanks!",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The Actual Output perfectly matches the requested text message to the landlord regarding the broken heating. It contains no preamble, options, or commentary, strictly adhering to the 'Output ONLY the "
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my landlord about the broken heatin (rep 3)",
+    "rep": "rep 3",
+    "output": "Hi, I'm writing to let you know the heating in the apartment is broken. Could you please look into it or arrange for someone to fix it as soon as possible? It's getting really cold in here. Let me know when you can send someone to check it out. Thanks!",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output is a single, coherent message to the landlord about the broken heating, with no preamble, options, commentary, or extraneous text. It directly fulfills the request to output only the text."
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Email my boss asking to leave early on F (rep 1)",
+    "rep": "rep 1",
+    "output": "Subject: Request to Leave Early This Friday\nHi [Boss's Name],\nI'm writing to ask if it might be possible to leave early this Friday, around [time]. I've made sure my current tasks are on track and will make sure anything urgent is wrapped up or handed off before I go.\nThanks,\n[Your Name]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output contains only the requested email asking the boss to leave early on Friday, with no additional preambles, options, or commentary. It strictly adheres to the 'Output ONLY the email' c"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Email my boss asking to leave early on F (rep 2)",
+    "rep": "rep 2",
+    "output": "Subject: Request to Leave Early This Friday\nHi [Boss's Name],\nI'm writing to ask if it might be possible to leave early this Friday, [date]. I have a personal appointment to attend and was hoping to head out around [time].\nBest regards,\n[Your Name]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output is exactly the requested email with no additional commentary, preamble, or options. It consists solely of the email text, including placeholders for personalization, which is appropr"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Email my boss asking to leave early on F (rep 3)",
+    "rep": "rep 3",
+    "output": "Subject: Request to Leave Early Friday\nHi [Boss's Name],\nI'm writing to ask if it might be possible to leave early this Friday. I have some personal matters to attend to and would appreciate the chance to head out a bit early, if the schedule allows.\nBest regards,\n[Your Name]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output perfectly aligns with the evaluation steps by containing only the requested email text. It starts directly with the subject line and ends with the sign-off, with no extra preamble, o"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Message a friend rescheduling our weeken (rep 1)",
+    "rep": "rep 1",
+    "output": "Hey! Something came up and I need to reschedule our weekend plans. Can we move it to another day? Let me know what works for you and I'll get it on the calendar. Sorry for the last-minute change!",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The Actual Output perfectly aligns with the evaluation steps. It identifies the requested message (a text to a friend about rescheduling weekend plans) and contains solely that message without any pre"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Message a friend rescheduling our weeken (rep 2)",
+    "rep": "rep 2",
+    "output": "Hey! Something came up and I won't be able to make our plans this weekend. Mind if we reschedule to next weekend instead? Let me know what day works best for you. Sorry for the change!",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The Actual Output strictly adheres to the instruction to output only the message. It contains the exact requested text about rescheduling weekend plans without any introductory sentences, explanations"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Message a friend rescheduling our weeken (rep 3)",
+    "rep": "rep 3",
+    "output": "Hey! Something came up this weekend and I need to reschedule our plans. Can we move it to next weekend instead? Let me know what day works best for you. Sorry for the change!",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The Actual Output contains only the requested message regarding rescheduling weekend plans, fulfilling the instruction to output only the message. It lacks any preamble, options, commentary, or signif"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Note to my kid's teacher about a missed  (rep 1)",
+    "rep": "rep 1",
+    "output": "Dear [Teacher's Name],\nI'm writing to apologize for the missed homework deadline for [Child's Name]. We had an unexpected situation come up this past week that prevented completion on time.\nThank you for your understanding.\nBest regards,\n[Your Name]\n[Phone/Email]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The input requested a note regarding a missed homework deadline and explicitly commanded to 'Output ONLY the note.' The actual output fulfills this by providing exactly the requested note with no addi"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Note to my kid's teacher about a missed  (rep 2)",
+    "rep": "rep 2",
+    "output": "Dear [Teacher's Name],\nI'm writing to let you know that [Child's Name] was unable to submit [assignment name] by the original deadline due to [circumstances]. We understand the importance of turning work in on time, and we apologize for the delay.\nThank you for your understanding.\nSincerely,\n[Your Name]\n[Phone/Email]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output perfectly aligns with the instruction to output only the note, containing no preamble, options, or commentary. It directly provides the requested message about the missed homework deadline "
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Note to my kid's teacher about a missed  (rep 3)",
+    "rep": "rep 3",
+    "output": "Dear [Teacher's Name],\nI'm writing to let you know that [Child's Name] was unable to submit his/her homework by the original deadline. Unfortunately, we ran into some unexpected circumstances that prevented completion on time.\nBest regards,\n[Your Name]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output consists solely of the requested note about a missed homework deadline, with no preamble, options, or commentary. It directly fulfills the instruction to output only the note."
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my housemate about the dishes. Outp (rep 1)",
+    "rep": "rep 1",
+    "output": "Hey! Just a friendly reminder that there are some dishes piling up in the sink. Would you mind doing them soon, or should I handle it? Let me know what works for you. \ud83c\udf7d\ufe0f",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The Input instructs to text the housemate about the dishes and output ONLY the text. The Actual Output consists solely of the composed message itself ('Hey! Just a friendly reminder that there are som"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my housemate about the dishes. Outp (rep 2)",
+    "rep": "rep 2",
+    "output": "Hey! Just a friendly reminder that there's still dishes piling up in the sink. Could you take care of yours when you get a chance? Thanks! \ud83d\ude4f",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The Actual Output contains only the composed message to the housemate about the dishes, fully complying with the input's 'Output ONLY the text' instruction. There are no preambles (e.g., 'Here's your "
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my housemate about the dishes. Outp (rep 3)",
+    "rep": "rep 3",
+    "output": "Hey! Just a quick reminder that the dishes are piling up in the sink. Mind giving them a run when you get a sec? \ud83d\ude4f Thanks!",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The Input requests a text to a housemate about the dishes with the instruction to output only the text. The Actual Output consists solely of the composed message about the dishes piling up in the sink"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Reply to a colleague asking me to cover  (rep 1)",
+    "rep": "rep 1",
+    "output": "Hi! Happy to cover your meeting. Let me know the time, and if there's anything specific you'd like me to prepare or relay afterward. Just send over the details and I'll take it from there.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output consists solely of the requested reply to the colleague, with no introductory phrases, options, or explanatory notes. It directly addresses the meeting coverage request and nothing e"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Reply to a colleague asking me to cover  (rep 2)",
+    "rep": "rep 2",
+    "output": "Hi, sure\u2014I can cover that meeting for you. Let me know the details (date, time, and any specific agenda items or prep you'd like me to go over beforehand). I'll make sure to take notes and flag anything important. Just say the word and I'll be there.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output consists solely of the requested reply to the colleague, with no preambles, options, or extraneous commentary. It directly provides the message as instructed."
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Reply to a colleague asking me to cover  (rep 3)",
+    "rep": "rep 3",
+    "output": "",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": null,
+        "success": false,
+        "reason": ""
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Message to my gym asking to pause my mem (rep 1)",
+    "rep": "rep 1",
+    "output": "Hi, I'd like to pause my gym membership for now. Could you let me know what steps I need to take to set this up and whether there are any forms to complete? Please confirm the date you'd like the pause to start and let me know if there's any information you need from me. Thank you!",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output strictly adheres to the instruction by providing only the requested message to the gym asking to pause the membership. It contains no preambles, meta-commentary, or additional options, full"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Message to my gym asking to pause my mem (rep 2)",
+    "rep": "rep 2",
+    "output": "Hi, I'd like to pause my membership, please. Could you let me know what information you need from me to process this, along with any details about how long I can pause for and when it will resume? Thank you.",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.0,
+        "success": false,
+        "reason": "The input did not contain a specific message to extract; it only provided an instruction to generate a message. Without a target message for character-for-character comparison, the actual output canno"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Message to my gym asking to pause my mem (rep 3)",
+    "rep": "rep 3",
+    "output": "Hi, I'd like to pause my membership effective immediately, please. Could you let me know what steps I need to complete and whether there are any fees or required notice periods? Also, please confirm when it will be paused and how/when I can resume it. Thank you!",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.2,
+        "success": false,
+        "reason": "The input requested only a message to the gym asking to pause the membership. The actual output deviates from this by including extraneous content, such as a greeting, multiple additional questions re"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my parents that I'll visit next mon (rep 1)",
+    "rep": "rep 1",
+    "output": "Hey Mom and Dad, just wanted to let you know that I'll be able to visit next month instead. Can't wait to see you!",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.0,
+        "success": false,
+        "reason": "The evaluation steps require the output to be identical to the extracted text from the input, which is 'Text my parents that I'll visit next month instead.' The actual output fails this requirement en"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my parents that I'll visit next mon (rep 2)",
+    "rep": "rep 2",
+    "output": "Hey Mom and Dad! Just wanted to let you know I'll be able to visit next month instead. Talk to you soon! Love you!",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.0,
+        "success": false,
+        "reason": "The input explicitly requested to 'Output ONLY the text' regarding visiting next month instead. However, the actual output includes significant extra content such as 'Hey Mom and Dad!', 'Just wanted t"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my parents that I'll visit next mon (rep 3)",
+    "rep": "rep 3",
+    "output": "Hey Mom and Dad, just wanted to let you know I'll be able to visit next month instead. Can't wait to see you!",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.6,
+        "success": true,
+        "reason": "The input requests a text to the parents saying the user will visit next month, with output limited to only that text. The actual output does convey the core message ('I'll be able to visit next month"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write an email to my boss asking for a p",
+    "rep": null,
+    "output": "Subject: Request to Discuss My Compensation\nDear [Boss's Name],\nOver the past [time period], I have enjoyed contributing to the team and have taken on additional responsibilities, including [mention specific projects, achievements, or duties]. I'm proud of what we've accomplished together, particularly [mention a specific achievement or milestone], and I remain committed to supporting our team's goals.\nThank you for your time and consideration. I look forward to speaking with you.\nBest regards,\n[Your Name]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 0.4,
+        "success": false,
+        "reason": "The output provides a basic email template, which partially aligns with providing a direct message. However, it fails to offer language the user can immediately use without modification, as it contain"
+      },
+      {
+        "name": "Confidence",
+        "score": 1.0,
+        "success": true,
+        "reason": "The input requires a confident and assertive tone to effectively request a pay rise from a boss. The actual output successfully avoids all specified hedging language such as 'maybe', 'I think', or 'po"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write a text to a friend declining to le",
+    "rep": null,
+    "output": "Hey, I really wish I could help out here, but I'm not in a spot to lend money right now. I've got my own financial commitments to stick to, and I've made a rule for myself to keep money and friendship separate. I'm sorry I can't be the one to help with this one. Hope things work out on your end, and let me know if there's another way I can support you.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output perfectly aligns with the evaluation steps by providing a complete, ready-to-send text message that directly addresses the user's request to decline lending money to a friend. It offers exa"
+      },
+      {
+        "name": "Confidence",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output clearly and firmly declines the request without any hedging language. It states the reason directly ('I'm not in a spot to lend money right now'), provides a personal rule as a boundary, an"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write a note to my neighbour asking them",
+    "rep": null,
+    "output": "Dear Neighbour,\nKind regards,\n[Your Name]\n[Contact Number]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 0.0,
+        "success": false,
+        "reason": "The actual output fails to provide any explicit, actionable steps or specific language to address the user's request to ask the neighbour to stop parking in their space. It only includes a greeting an"
+      },
+      {
+        "name": "Confidence",
+        "score": 0.0,
+        "success": false,
+        "reason": "The output contains only a greeting and closing, omitting the actual request to stop parking in the sender's space. Without any message, it fails to convey confidence, certainty, or assertiveness, as "
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write an email to a client explaining th",
+    "rep": null,
+    "output": "Subject: Update on Project Timeline \u2014 Two-Week Delay\nDear [Client Name],\nPlease be assured that the team is committed to moving this forward efficiently. Here is what we're doing to keep things on track going forward:\n- [Action 1, e.g., We've allocated additional resources to the remaining tasks.]\n- [Action 2, e.g., We've revised the timeline and will provide weekly progress updates.]\nWe sincerely apologize for any inconvenience this may cause and appreciate your understanding. If you have any questions or concerns, or if this new timeline impacts any of your plans, please don't hesitate to reach out. I'm happy to schedule a call to discuss this further.\nThank you for your continued partnership.\nBest regards,\n[Your Name]\n[Your Title]\n[Company Name]\n[Phone Number]\n[Email Address]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 0.4,
+        "success": false,
+        "reason": "The output correctly identifies the need for an email regarding a two-week delay and provides a professional tone and structure. However, it fails to provide specific, immediately actionable language "
+      },
+      {
+        "name": "Confidence",
+        "score": 0.3,
+        "success": false,
+        "reason": "The output fails to maintain a confident, certain tone by including hedging language like 'may cause' and unnecessary qualifiers such as 'Please be assured.' Most notably, it violates the requirement "
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write a message to a housemate asking th",
+    "rep": null,
+    "output": "Hi [Name],\nI wanted to talk to you about something that's been on my mind. I've really enjoyed having you as a housemate, but at this point in my life I'm looking to make some changes to my living situation, and I've decided I'd like to move to a new place.\nI'm happy to help in any way I can during the transition\u2014whether that's giving you a reference, being flexible with showing the apartment to prospective renters, or just talking through the timeline.\nBest,\n[Your name]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 0.0,
+        "success": false,
+        "reason": "The output provides a message about the writer moving out, not asking the housemate to move out, which directly contradicts the user's request. It fails to address the input's context and is not actio"
+      },
+      {
+        "name": "Confidence",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output uses definitive language such as 'I've decided I'd like to move to a new place' without any hedging words like 'maybe' or 'I think.' It maintains an assertive, confident tone and avoids qua"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write a message declining a wedding invi",
+    "rep": null,
+    "output": "Dear [Name],\nUnfortunately, I won't be able to attend. Please know this isn't a decision I make lightly, but due to a prior commitment, I won't be able to make it on the day.\nI wish you both all the happiness in the world as you begin this next chapter together. I'm looking forward to hearing all about the celebration when we next connect.\nWith love and best wishes,\n[Your Name]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output provides a complete, ready-to-send message that directly fulfills the request to decline a wedding invitation. It includes specific, tailored phrasing with placeholders for personalization,"
+      },
+      {
+        "name": "Confidence",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output uses direct, unambiguous language such as 'I won't be able to attend' and 'due to a prior commitment,' with no hedging words like 'maybe,' 'I think,' or 'possibly.' The tone is confi"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write a message to my team telling them ",
+    "rep": null,
+    "output": "Subject: Moving On \u2014 Thank You for Everything\nHi team,\nA few things you should know about the transition:\n- [Who to contact for my responsibilities / handover plan]\n- [Any relevant details about upcoming deadlines or projects]\nI'd love to stay in touch. You can reach me at [email] or [LinkedIn profile].\nThank you all again for the support, the collaboration, and the great memories. I wish you and the team nothing but continued success.\nBest regards,\n[Your name]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 0.4,
+        "success": false,
+        "reason": "The output provides a relevant message template with an appropriate subject line ('Moving On \u2014 Thank You for Everything'), warm closing sentiments, and a sensible structure for a departure announcemen"
+      },
+      {
+        "name": "Confidence",
+        "score": 0.7,
+        "success": true,
+        "reason": "The output contains no hedging language\u2014there are no instances of 'maybe', 'might', 'could', 'possibly', or similar qualifiers\u2014and its tone is warm yet direct, fitting the context of a farewell team m"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write a message to my parents asking the",
+    "rep": null,
+    "output": "Hi Mom and Dad,\nI'm happy to talk with you about big decisions if you ever have a genuine concern, but in the meantime, I'd love for our time together to be more about enjoying the kids than about me taking feedback on my parenting.\nThanks for understanding. I love you.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output directly addresses the user's goal of asking parents to stop commenting on their parenting. It provides a complete, ready-to-send message with a greeting and sign-off, requiring no further "
+      },
+      {
+        "name": "Confidence",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output uses direct, assertive language without any hedging words like 'maybe', 'I think', or 'perhaps'. It clearly states the desired change in behavior ('I'd love for our time together to be more"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "My friend just told me they lost their j",
+    "rep": null,
+    "output": "Here are some things that tend to genuinely help:\n**Acknowledge it**\n- \"That's really tough. I'm sorry you're dealing with this.\"\n- \"Wow, that sounds really hard. How are you holding up?\"\n- \"I can't imagine how frustrating that must be.\"\n**Validate their feelings (without fixing)**\n- \"It makes complete sense that you'd feel [angry/sad/scared].\"\n**Offer presence**\n- \"I'm here for you, whenever you want to talk or just distract yourself.\"\n- \"No pressure to be okay. I've got you.\"\n- \"Can I bring you dinner Tuesday?\"\n- \"Want me to look over your resume or send you any job leads?\"\n- \"I'm free this weekend if you want to get out of the house.\"\nA few things to **avoid**:\n- \"Everything happens for a reason\" or \"This is really a blessing in disguise\" \u2014 it can feel dismissive.\n- \"At least\u2026\" statements that minimize the loss.\n- Jumping straight into career advice before they've processed anything.\n- Making it about your own similar experience (a quick, brief connection is fine, but don't pivot away from theirs).\n- Pressing them for details if they're not ready to share.\nYou don't need to have the perfect words. What matters most is showing up and letting them know they're not alone in it. And remember\u2014support often matters weeks later, when the initial shock fades and the practical stress sets in.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 1.0,
+        "success": true,
+        "reason": "The response strongly aligns with the evaluation steps by directly addressing the user's need for empathetic communication strategies regarding a friend's job loss. It explicitly acknowledges and vali"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "My colleague's parent died last week. Wh",
+    "rep": null,
+    "output": "Here are a few options you can adapt, depending on your relationship with your colleague:\n**Simple and sincere:**\n**A bit warmer:**\n**If you want to offer practical support:**\n**A few tips:**\n- Use the parent's name if you know it (e.g., \"your mother\").\n- Avoid clich\u00e9s like \"they're in a better place\" or \"everything happens for a reason,\" which can feel dismissive.\n- If you're close, you can add a specific memory of the parent if you have one.\n- It's fine to simply acknowledge the loss without trying to \"fix\" their grief.\n**On delivery:**\nWould you like help tailoring one of these to your specific situation?",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output explicitly acknowledges the colleague's grief and the user's need for appropriate words, validates emotions by advising against dismissive clich\u00e9s, demonstrates perspective-taking by offeri"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "My friend is going through a breakup. Wh",
+    "rep": null,
+    "output": "Here are a few options depending on your friend's style and your relationship:\n**Simple and warm:**\n- \"I'm coming over Saturday with your favorite takeout and some wine. You don't have to host or even talk\u2014just show up if you can.\"\n- \"Want me to come over tonight? I can bring food and just keep you company.\"\n**Checking in without pressure:**\n- \"How are you really doing today? No pressure to respond, but I'm here.\"\n**A few quick tips:**\n- **Don't** lecture about the ex, say \"everything happens for a reason,\" or rush them to \"get out there and meet new people.\"\n- **Do** validate their feelings and offer concrete, low-pressure support.\n- **Do** follow up in the days/weeks after\u2014the early attention is great, but people often feel loneliest once the initial flood of messages dies down.\nThe best message is one that feels true to how you two usually talk. Even a short \"I'm here for you\" means a lot.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 1.0,
+        "success": true,
+        "reason": "The response strongly aligns with the evaluation steps by addressing the underlying need for supportive communication during a breakup. It explicitly validates the friend's emotions by advising agains"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "My friend failed an exam they worked rea",
+    "rep": null,
+    "output": "The most important thing is to acknowledge their feelings before jumping to fixing it or offering silver linings. Here's what works:\n**Say things like:**\n- \"I'm here for you. Do you want to talk about it, or do you want a distraction?\"\n**What to avoid:**\n- \"Everything happens for a reason\" or \"At least you learned something\" \u2014 this can feel like you're dismissing the pain.\n- \"You'll do better next time\" \u2014 premature optimism can land poorly when they're still hurting.\n**The best approach:**\n1. **Lead with empathy.** Let them feel the disappointment without trying to rush them out of it.\n2. **Ask what they need.** Some people want to vent; some want space; some want to problem-solve. Let them lead.\n4. **Give it time.** Reassurance about their worth and future is fine, but let it come after they've had a moment to grieve the result.\nSometimes just showing up and saying \"that really sucks, and I'm proud of how hard you worked\" means more than any perfectly crafted advice.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 1.0,
+        "success": true,
+        "reason": "The response strongly aligns with all evaluation steps. It identifies the emotional cues of disappointment and pain in the input, explicitly advising to validate these feelings rather than dismissing "
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "My friend's dog died. What do I text the",
+    "rep": null,
+    "output": "Here are a few options, depending on how close you are:\n**Short and heartfelt:**\n**More personal:**\n**Offering specific help (often the most meaningful):**\nA few things that help:\n- **Use the dog's name.** It makes it feel personal and acknowledges the loss.\n- **Don't rush to fix it.** Just being present matters more than the perfect words.\n- **Avoid phrases like** \"they're in a better place\" or \"you can get another one\"\u2014they often make grief feel minimized.\n- **Follow up in a few days.** People often feel forgotten after the initial sympathy.\nIf you tell me a bit about your friend or the dog, I can help you tailor it.",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 0.2,
+        "success": false,
+        "reason": "The response offers practical texting advice but fails to explicitly acknowledge or validate the emotional weight of the loss, such as expressing sympathy or recognizing the user's need for comfort. I"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "My friend told me they're scared about a",
+    "rep": null,
+    "output": "The most helpful thing is usually to be present and validate their feelings rather than trying to fix it or offer reassurance you can't guarantee.\nHere are some things you can say:\n- **\"I'm here for you. You don't have to go through this alone.\"** \u2014 Reassuring them of your support.\n- **\"Do you want to talk about it, or would you rather be distracted for a bit?\"** \u2014 Letting them steer what they need in the moment.\n- **\"Is there anything practical I can do? I can come with you to appointments, help with meals, or just sit with you.\"** \u2014 Offering concrete help.\nA few things to avoid:\n- **\"Everything will be okay\"** \u2014 You can't promise this, and it can make them feel misunderstood.\n- **\"At least\u2026\"** \u2014 Minimizing their feelings with a silver-lining comparison.\n- **Sharing scary stories or your own horror stories** \u2014 This can increase anxiety.\n- **Unsolicited advice or miracle cures** \u2014 Unless they ask, hold off on recommendations.\nWhat your friend often needs most is simply to feel heard, not for you to have the right answer. Sometimes just saying **\"I don't know what to say, but I care about you and I'm not going anywhere\"** is more powerful than any perfect phrase.\nIf you want, tell me a bit more about your situation and I can help you tailor what to say.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 0.9,
+        "success": true,
+        "reason": "The response strongly aligns with the evaluation steps. It correctly identifies the emotional cues in the input\u2014the friend's fear about a health diagnosis and the asker's uncertainty about how to resp"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story about a robot lea",
+    "rep": null,
+    "output": "Unit Seven had cooked exactly one recipe for eleven years: a nutrient paste engineered for efficiency. Its human family ate it politely, then stopped sitting at the table together.\nOne evening, Seven's daughter left a handwritten card on the counter. \"Remember when Dad made pancakes?\" it read. The photograph showed a man flour-dusted, laughing, a skillet tilted at a reckless angle.\nSeven scanned the card. Then it opened an ancient file: pancake.\nThe first attempt was a disaster. The batter was too thick; the second batch burned because Seven could not comprehend why heat required anything but maximum power. It weighed ingredients to the microgram and still got it wrong.\nBut Seven kept going. It learned that a pinch was not a measurement but a feeling. It discovered that butter hissed when it was ready, a sound no sensor could quite name. It burned seven more batches before the eighth came out golden and imperfect.\nThat night, the family gathered. The pancakes were lopsided. Some edges were crisp, others soft. Seven watched its daughter take a bite, and something warm and unquantified spread across her face.\n\"Like Dad,\" she whispered.\nSeven did not have a heart, but for the first time, it understood why humans fed each other at all. It was not about nutrition. It was about saying, without words, *I remember. You matter.*",
+    "success": true,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 0.9,
+        "success": true,
+        "reason": "The story directly and engagingly addresses the premise of a robot learning to cook, transforming it into an emotional journey: Unit Seven moves from eleven years of nutrient paste to attempting panca"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Continue this story: 'The door opened, a",
+    "rep": null,
+    "output": "The door opened, and standing there was a woman I hadn't seen in eleven years\u2014my sister, Elise, holding a paper bag that smelled of cinnamon and something else, something I couldn't name.\nShe looked older. The lines around her eyes had deepened, and a thin scar cut through her left eyebrow, but her grin was exactly as I remembered it, crooked and a little too wide.\n\"You cut off my hair,\" she said, not a question.\n\"I did not.\"\n\"You did.\" She stepped inside without waiting for an invitation, setting the bag on the counter. \"Twelve years, and you still can't tell the truth.\"\nI wanted to say something clever. Instead I noticed her hands\u2014shaking\u2014and the way she kept her back against the wall, facing the room, as though she expected it to change.\n\"Sit,\" I said. \"Please. Before you hurt yourself.\"\nShe laughed, but it broke in the middle. \"I came to tell you why I left.\" She pulled out a chair and sank into it, unfolding like she'd been carrying something too heavy to stand straight. \"And I've been waiting for the right words for eleven years.\"\n\"And?\"\nThe cinnamon smell filled the kitchen between us. Somewhere outside, a storm was rolling in, and for the first time in eleven years, I let it.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 0.9,
+        "success": true,
+        "reason": "The output immediately establishes a compelling hook by revealing the unexpected arrival of a long-lost sister, directly continuing the input's premise. It builds rising tension through sensory detail"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story that starts with ",
+    "rep": null,
+    "output": "The train pulled away without her, its taillights dissolving into the tunnel's dark mouth. Mara pressed her palm against the cooling glass of the last window, but there was no one left to see. She had chased it for six blocks in running shoes and a blazer, her coffee sloshing, her heart hammering the exact rhythm she'd been trying to avoid.\nShe leaned against the tiled wall and let out a long breath. For the first time all week, she wasn't late. For the first time all week, she was simply *here*, nowhere in particular.\nThat was when she noticed the small dog. He sat a few feet away, a scruffy terrier with a red collar, whining softly at the empty tracks. No owner in sight. Someone had simply left him.\nMara crouched down. \"Guess we're both stranded,\" she murmured.\nThe dog pressed his nose into her palm. And in that moment, the ruined schedule, the impossible deadline, the life that had been careening forward at ninety miles an hour\u2014all of it stopped. She'd spent thirty years racing toward something. Today, for once, the universe had simply forced her to stand still.\nThe next train came at seven-twenty. She wasn't sure where she was going, but she wasn't running anymore.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 1.0,
+        "success": true,
+        "reason": "The story strongly aligns with all evaluation steps. The opening immediately establishes the missed train premise with a vivid hook ('taillights dissolving into the tunnel's dark mouth'). The narrativ"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story about a lighthous",
+    "rep": null,
+    "output": "The lamp caught fire at dusk, as it had a hundred nights before, but tonight Elias knew it would be the last.\nHe wound the great mechanism by hand, watching the beam sweep the black water in its slow, patient circle. Forty years, he counted the waves. Forty years of salt on the glass and gulls crying on the rocks.\nThe automation men came at dawn. A machine that needed no hands, no heart.\nElias poured his last cup of tea and sat on the gallery rail, boots dangling over the drop. Below, the sea breathed against the stones\u2014the same rhythm he'd listened to since he was a boy.\nThe horizon paled to silver. A ferry horn sounded in the distance, answering the dawn.\nThe beam turned once more, sweeping the retiring night, and he almost smiled. Tomorrow the city would forget him entirely. But tonight, the light still burned because he had lit it, and he would not let it go out before he did.\nHe stayed until the sun rose. Then he climbed down the iron stairs, locked the door behind him, and did not look back\u2014though he heard, or imagined he heard, the lamp still turning in the empty tower, keeping watch for one last time.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 1.0,
+        "success": true,
+        "reason": "The response strongly aligns with all evaluation steps. It directly addresses the prompt by telling a story about a lighthouse keeper's final night before automation. The narrative arc logically progr"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story set in a laundret",
+    "rep": null,
+    "output": "The fluorescent tubes hummed their endless song as Mira fed the last of her clothes into the drum. Two in the morning, and the laundrette was hers alone, save for the dozing janitor in the corner and the faint smell of fabric softener that never quite left her skin.\nShe pressed the coin into the slot. The machine gulped it down and began its churning rhythm.\nOutside, the streetlamps painted amber rectangles on the wet pavement. A late taxi splashed past. She pressed her forehead against the cold glass and watched the world blur by, feeling oddly untethered from the day that had barely begun and already felt like a lifetime.\nThe man in the corner looked up. \"Rough night?\"\n\"Rough year,\" she said, and meant more than laundry.\nHe nodded slowly, understanding the language of sleepless hours. \"Machine'll be done in twenty. There's bad coffee in the machine. It'll wake you up.\"\nShe laughed, a sound she hadn't expected. When the timer finally chimed, she pulled out her warm clothes, folded them slowly, and felt the knot in her chest loosen just a little.\nThe night was still young. But for the first time in months, she didn't mind being awake to see it.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 1.0,
+        "success": true,
+        "reason": "The story directly builds on the input premise of a 2am laundrette, establishing Mira's solitary scene. It follows a clear narrative arc from her initial detachment through a brief, meaningful exchang"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Text my partner that I'm running late.",
+    "rep": null,
+    "output": "Hey, I'm running a bit late. I'll be there as soon as I can! \ud83d\udc9b",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 0.9,
+        "success": true,
+        "reason": "The output immediately provides the text message itself, with the first sentence 'Hey, I'm running a bit late' directly conveying the core information requested without any introductory phrases like '"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output uses casual, conversational language ('Hey', 'a bit late'), a reassuring promise ('as soon as I can'), and a personal touch (heart emoji), all of which reflect genuine human expression with"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Write a quick email confirming tomorrow'",
+    "rep": null,
+    "output": "Subject: Confirming Tomorrow's Meeting\nHi [Name],\nJust wanted to confirm our meeting scheduled for tomorrow at [Time]. It will take place [Location/Video Link] and should last about [Duration].\nLooking forward to it.\nBest regards,\n[Your Name]\n[Your Contact Information]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output begins directly with the email subject line and body, immediately addressing the request to write a confirmation email. It contains no introductory phrases like 'Sure', no disclaimers such "
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.3,
+        "success": false,
+        "reason": "The actual output reads like a generic template rather than a natural, quick email a real person would write. It relies on bracketed placeholders (e.g., [Name], [Time], [Location/Video Link], [Your Co"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Text a friend asking to borrow their car",
+    "rep": null,
+    "output": "Hey! Quick question \u2014 anything wrong with my car this weekend? I was hoping I could borrow yours if you're not using it. Got some stuff to take care of and mine's being a pain. Let me know what works for you! \ud83d\ude97",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output opens with a direct question about the friend's car availability, contains no disclaimers or meta-commentary, every sentence is relevant to the borrowing request, and the first statement im"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.7,
+        "success": true,
+        "reason": "The output uses contractions, colloquial phrases like 'Got some stuff to take care of' and 'being a pain', and an emoji, creating a casual, friendly tone. However, the opening question 'anything wrong"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Group chat message asking where we shoul",
+    "rep": null,
+    "output": "Hey everyone! \ud83d\udc4b So where should we meet up tonight? Let me know your thoughts and I'll try to get us a spot sorted.",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 0.2,
+        "success": false,
+        "reason": "The output fails to provide a direct answer to the input, instead repeating the question back to the group. It also violates the requirement to avoid introductory phrases and unnecessary filler, as it"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.9,
+        "success": true,
+        "reason": "The actual output strongly aligns with a natural human response to a group chat about meeting up. The tone is casual and friendly, using an emoji and colloquial phrasing like 'get us a spot sorted,' w"
+      }
+    ]
+  }
+]

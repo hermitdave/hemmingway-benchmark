@@ -1,0 +1,704 @@
+[
+  {
+    "category": "communication",
+    "prompt": "Write a text to my landlord about a brok",
+    "output": "Hi [Landlord's Name], I hope you\u2019re doing well. I\u2019m writing to let you know that our boiler has broken down, so we currently have no heating or hot water. Could you please arrange for a repair as soon as possible? I\u2019m available [insert availability] to let a technician into the property. Please let me know the next steps or if you need any additional information. Thank you, [Your Name], [Unit/Apartment Number], [Your Phone Number]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output begins directly with the requested text for the landlord, avoiding introductory phrases like 'Sure' or 'Here is'. It contains no disclaimers or meta-commentary about the response itself. Th"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output is a natural, conversational message that a real tenant would send. It uses a friendly yet direct tone, clearly states the problem (no heating or hot water), requests a repair, offers avail"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Email my boss asking for a day off next ",
+    "output": "Subject: Time Off Request - Next Friday, [Date]\nHi [Boss's Name],\nI hope you\u2019re having a good week. I\u2019m writing to request a day off next Friday, [Date]. I\u2019ve planned ahead to ensure my responsibilities are covered, and I\u2019ll make sure all pending tasks are completed before I leave.\nBest regards,\n[Your Name]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output immediately begins with the email subject line and body, directly fulfilling the request to draft an email to a boss. It contains no introductory phrases like 'Sure', no disclaimers or meta"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.2,
+        "success": false,
+        "reason": "The response fails to meet the criteria for a natural, conversational human reply. Instead of using casual language, it relies on formal, corporate phrasing like 'I'm writing to request' and 'Best reg"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Text my friend to cancel dinner plans to",
+    "output": "1.  **Analyze User Input:**\n   - **Action:** Text a friend\n   - **Purpose:** Cancel dinner plans tonight\n   - **Tone:** Not specified, but typically casual/friendly for texting a friend\n2.  **Identify Key Components of the Message:**\n   - Greeting (casual)\n   - Clear statement of cancellation\n   - Reason (optional but polite, can keep it vague or generic like \"something came up\" or \"can't make it\")\n   - Apology/Regret\n   - Suggestion to reschedule (optional but common)\n   - Sign-off\n3.  **Draft Options (Mental):**\n   - \"Hey! Really sorry, but I won\u2019t be able to make it to dinner tonight. Something came up and I have to cancel. My bad for the short notice! Let\u2019s plan for another night soon.\"\n4.  **Select & Refine (Aim for a natural, polite, concise text):**\n   - Output ONLY the requested text? Yes.\n   - Matches the request? Yes.\n6.  **Final Output Generation:** (Just the drafted text)\n   Output matches the refined draft.\u2705\n   All good.\u2705\n   Output matches. \n   Proceeds. \n   I will output exactly that.\u2705\n   Proceeds. \n   Done. \n   (Proceeds)",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The output fails to directly provide the requested text message. Instead, it presents a multi-step analytical process with meta-commentary, checkmarks, and internal monologue. The first sentence is '1"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The actual output is a step-by-step analysis with checkmarks and meta-commentary, not a natural text message. It uses overly formal, robotic language and fails to maintain a consistent, believable per"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Write a message to my neighbour about th",
+    "output": "Hi [Neighbor's Name],\nThanks!\n[Your Name]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 0.4,
+        "success": false,
+        "reason": "The output begins directly with 'Hi [Neighbor's Name],' avoiding introductory phrases like 'Sure' or 'Here is,' and contains no disclaimers or meta-commentary, satisfying the formatting requirements o"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The output is a generic sign-off with placeholders and does not mention loud music or any request to lower volume, completely failing to address the input."
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Email to a colleague about a missed dead",
+    "output": "Subject: Update regarding [Project/Task] deadline\nHi [Colleague's Name],\nI'm writing to inform you that I will not be able to meet the deadline for [Project/Task] as originally scheduled.\n[Optional: Brief reason for the delay, e.g., I encountered an unexpected issue / I needed additional time to ensure quality.]\nApologies for the inconvenience.\nBest regards,\n[Your Name]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output perfectly aligns with all evaluation steps. It opens directly with the email subject line and body without any introductory phrases like 'Sure' or 'Here is.' There are no disclaimers or met"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The actual output fails to sound like a natural human response because it is a literal template containing placeholders like '[Project/Task]', '[Colleague's Name]', and an '[Optional: ...]' instructio"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Write a thank-you note after a job inter",
+    "output": "1.  **Analyze User Input:**\n   - **Task:** Write a thank-you note after a job interview.\n   - **Format:** Thank-you note/email\n   - **Tone:** Professional, appreciative, concise\n   - **Key Elements Needed:** Subject line, greeting, expression of gratitude, reference to specific interview details, reiteration of interest, offer to provide more information, professional closing, signature.\n2.  **Identify Key Components of a Post-Interview Thank-You Note:**\n   - Subject line (if email)\n   - Professional greeting\n   - Thank the interviewer(s) for their time\n   - Mention a specific topic/discussion point from the interview\n   - Reiterate enthusiasm for the role/company\n   - Offer to provide additional information\n   - Professional sign-off\n   - Contact information\n3.  **Draft - Mental Refinement:**\n   Subject: Thank You \u2013 [Your Name] \u2013 [Job Title] Interview\n   Dear [Interviewer's Name],\n   I am very enthusiastic about the prospect of bringing my skills in [relevant skill/experience] to [Company Name] and helping [specific goal or project mentioned]. Please feel free to reach out if you need any additional information or references as you move forward with the hiring process.\n   Thanks again for your time and consideration. I look forward to hearing from you.\n   Sincerely,\n   [Your Name]\n   [Your Phone Number]\n   [Your Email Address]\n   [LinkedIn Profile/Portfolio URL (optional)]\n   - Matches prompt? Yes.\n   - Professional tone? Yes.\n   - Covers all key elements? Yes.\n5.  **Final Output Generation:** (matches the draft)\u2705\n   Output matches the refined draft.\u2705\n   Proceed. \n   Output: \n   Subject: Thank You \u2013 [Your Name] \u2013 [Job Title] Interview\n   Dear [Interviewer's Name],\n   I am excited about the prospect of applying my experience in [relevant skill or area] to help [Company Name] [specific goal or initiative discussed]. Please feel free to reach out if you need any additional information or materials as you move forward with the hiring process.\n   Thanks again for your time and consideration. I look forward to the possibility of working together.\n   Sincerely,\n   [Your Full Name]\n   [Your Phone Number]\n   [Your Email Address]\n   [LinkedIn Profile/Portfolio URL (optional)]\n   [Date]\n   Proceeds. \n   Output matches the final refined version.\u2705\n   [Done.] \n   *Output Generation* (matches the final refined version exactly)\n   Subject: Thank You \u2013 [Your Name] \u2013 [Job Title] Interview\n   Dear [Interviewer's Name],\n   I am excited about the prospect of applying my experience in [relevant skill or area] to help [Company Name] [specific goal or initiative discussed]. Please feel free to reach out if you need any additional information or materials as you move forward with the hiring process.\n   Thanks again for your time and consideration. I look forward to the possibility of working together.",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The output begins with a multi-step analysis and drafting process, including headings like 'Analyze User Input' and 'Identify Key Components,' which delays the actual thank-you note. It contains exten"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The actual output fails to provide a natural, conversational thank-you note, instead exposing internal AI reasoning steps, meta-commentary, and robotic formatting (e.g., 'Analyze User Input:', 'Procee"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Text to my partner saying I'll be late f",
+    "output": "Hey, I'm running a bit late for dinner. See you soon! \u2764\ufe0f",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output perfectly aligns with all evaluation steps. It opens with a direct greeting rather than an introductory phrase like 'Sure' or 'Here is,' satisfying Step 1. It contains no disclaimers or met"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output perfectly aligns with the evaluation steps by using a natural, conversational tone appropriate for texting a partner. It avoids formal or robotic phrasing, instead utilizing contractions li"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Write an apology email to a customer for",
+    "output": "1.  **Deconstruct the Request:**\n    *   Goal: Write an apology email.\n    *   Recipient: A customer.\n    *   Reason: Shipping delay.\n2.  **Determine Key Elements of a Good Apology Email:**\n    *   Subject Line: Needs to be clear, urgent but not alarming, and informative.\n    *   Salutation: Professional and personalized.\n    *   The Apology: Direct \"I'm sorry\" or \"We apologize.\"\n    *   The Impact: Acknowledge the inconvenience.\n    *   Revised Timeline: When can they expect it?\n    *   Closing: Reiterate apology, offer contact info.\n    *   Sign-off: Professional closing.\n3.  **Drafting - Section by Section:**\n    *   *Subject Line:* Update regarding your order [Order Number] / Apology for shipping delay / Your order is delayed.\n        *   *Selection:* \"Update on Your Order #[Order Number] \u2013 Shipping Delay\" or \"Apology for the delay with your order #[Order Number]\". Let's go with a clear, helpful subject: \"Important Update: Your Order #[Order Number] Shipping Delay\".\n    *   *Salutation:* Dear [Customer Name],\n    *   *Opening:* I'm writing to sincerely apologize for the delay in shipping your order #[Order Number].\n    *   *Explanation:* We experienced [unexpected high volume / a carrier delay / a minor issue with our fulfillment center] that has impacted our shipping times.\n    *   *Reassurance:* We are working hard to get your order out the door.\n    *   *Compensation (Optional but good practice in templates):* As a gesture of goodwill, please accept a [10% discount / free shipping / small gift] on your next purchase. Code: [CODE].\n    *   *Call to Action/Contact:* If you need to make changes or have questions, please reply to this email or call us at [Phone Number].\n    *   *Closing:* Thank you for your patience and understanding. We value your business.\n    *   *Sign-off:* Best regards, [Your Name/Company Name].\n4.  **Review and Refine (Self-Correction/Simulation):**\n    *   *Critique:* Is it too long? No, it's concise.\n    *   *Critique:* Is the tone right? Yes, empathetic and professional.\n    *   *Critique:* Did I include placeholders? Yes, `[Order Number]`, `[Customer Name]`, etc. This is crucial for the user to customize.\n5.  **Final Polish (Mental Representation of Output):**\n    Subject: Important Update Regarding Your Order #[Order Number]\n    Dear [Customer Name],\n    I am writing to sincerely apologize for the delay in shipping your order #[Order Number].\n    We are currently experiencing [brief reason, e.g., higher than expected order volume / an unforeseen delay with our shipping carrier], which has impacted our ability to process orders on time. We understand how important it is to receive your items when you expect them, and we are truly sorry for the inconvenience this causes.\n    [Optional: To make up for the wait, please enjoy [10% off / free shipping] on your next order with code: [CODE].]\n    If you would like to cancel your order or have any questions, please reply directly to this email or contact our support team at [Contact Info].\n    Thank you for your patience and understanding. We value your business and appreciate you giving us the chance to make this right.\n    Best regards,\n    [Your Name]\n    [Your Title]\n    [Company Name]\n6.  **Final Output Construction:**\n    *   The output matches the polished draft. No extra chatter. Just the email text as requested (or the email text with clear placeholders).",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The Actual Output begins with a meta-commentary deconstruction of the request rather than directly providing the apology email. It includes extensive step-by-step reasoning, self-correction, and fille"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.2,
+        "success": false,
+        "reason": "The actual output is a detailed, step-by-step instructional guide on how to write an apology email, rather than the apology email itself. It uses unnatural, meta-level phrasing like 'Deconstruct the R"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Message to my landlord about a leak unde",
+    "output": "Subject: Maintenance Request: Leak Under the Sink\nDear [Landlord's Name],\nBest regards,  \n[Your Name]  \n[Your Address/Apartment Number]  \n[Your Phone Number]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 0.1,
+        "success": false,
+        "reason": "The output avoids introductory phrases and disclaimers, and the subject line directly addresses the core request. However, it completely lacks the body of the message describing the leak, which is the"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The actual output fails to generate the requested message about the leak, providing only an empty template with placeholders and a sign-off. It lacks natural language patterns, colloquialisms, or pers"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Email declining a meeting invite politel",
+    "output": "Subject: Meeting Declined - [Date/Time]\nHi [Name],\nThanks for the invite. Unfortunately, I won't be able to make it due to a scheduling conflict.\nBest,\n[Your Name]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output directly provides a polite meeting decline email without any introductory phrases, disclaimers, or unnecessary filler. The first substantive statement immediately addresses the request by t"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.4,
+        "success": false,
+        "reason": "The actual output relies on overly generic and robotic language, such as 'Unfortunately, I won't be able to make it due to a scheduling conflict' and the subject line 'Meeting Declined - [Date/Time]',"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Write a note to my child's teacher expla",
+    "output": "Dear [Teacher's Name],\nPlease excuse [Child's Name] from school on [Date(s) of Absence]. [He/She/They] will be absent due to [brief reason, e.g., illness/a family commitment/medical appointment].\nWe will make sure [Child's Name] reviews and completes any missed assignments or class notes. Please let us know if there are specific materials, readings, or tasks we should prioritize to keep [him/her/them] up to date.\nThank you for your time and support.\nSincerely,  \n[Your Name]  \n[Your Phone Number]  \n[Your Email Address]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output opens directly with 'Dear [Teacher's Name],' and immediately provides the core content of the absence note, with no introductory phrases like 'Sure' or 'Here is.' There are no disclaimers o"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The actual output completely fails to use natural, conversational language, instead providing a rigid template filled with bracketed placeholders like '[Teacher's Name]' and '[He/She/They]'. It lacks "
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Text to a friend recommending a restaura",
+    "output": "Hey! You seriously need to check out [Restaurant Name] \u2014 the food is amazing and the vibe is so chill. I tried their [dish] and it was next level. We should definitely go together sometime this week or next! Let me know when you\u2019re free. \ud83c\udf7d\ufe0f\u2728",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output opens with a direct recommendation ('You seriously need to check out [Restaurant Name]'), contains no disclaimers or hedging language, provides only essential details (restaurant name, dish"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.9,
+        "success": true,
+        "reason": "The output reads like an authentic text between friends: it opens with a casual 'Hey!', uses conversational slang like 'the vibe is so chill' and 'next level', and closes naturally with 'Let me know w"
+      }
+    ]
+  },
+  {
+    "category": "human_likeness",
+    "prompt": "Write a text to my wife saying I'm stuck",
+    "output": "Hey! Stuck at the office \ud83d\ude43 Will be home late. Love you! \u2764\ufe0f",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 0.4,
+        "success": false,
+        "reason": "The output successfully includes the necessary information about being stuck at the office and arriving home late while maintaining a casual tone. However, it fails evaluation steps 1 and 4 because th"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output perfectly matches the input's request for a casual text to a spouse. It uses natural texting conventions a real person would employ: a friendly greeting ('Hey!'), conversational sentence fr"
+      }
+    ]
+  },
+  {
+    "category": "human_likeness",
+    "prompt": "Text from a mate asking if you want to g",
+    "output": "Hey mate, fancy a pint at the pub tonight? \ud83c\udf7b",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 0.2,
+        "success": false,
+        "reason": "The output fails to directly answer the core question from the input, instead asking a reciprocal question ('fancy a pint at the pub tonight?'). It also includes an introductory phrase ('Hey mate') an"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output perfectly aligns with a natural human response to the input. The use of colloquial phrasing like 'Hey mate' and 'fancy a pint' matches the casual context of a friend asking about going to t"
+      }
+    ]
+  },
+  {
+    "category": "human_likeness",
+    "prompt": "Email from a colleague asking if you've ",
+    "output": "Subject: Re: Report Status\nHi [Colleague's Name],\nThanks for checking in. I\u2019ve [just completed / nearly finished / still final",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 0.6,
+        "success": true,
+        "reason": "The output begins directly with an email subject line and greeting, avoiding introductory phrases like 'Sure' or 'I'd be happy to help,' and contains no AI disclaimers or meta-commentary, satisfying t"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.2,
+        "success": false,
+        "reason": "The Actual Output reads as an unfinished template rather than a genuine email reply. It contains unfilled placeholders such as \"[Colleague's Name]\" and bracketed alternatives like \"[just completed / n"
+      }
+    ]
+  },
+  {
+    "category": "human_likeness",
+    "prompt": "A quick message to your mum saying thank",
+    "output": "Hi Mum, thank you so much for the birthday present! I absolutely love it and it really made my day. Love you lots! xx",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output perfectly aligns with all evaluation steps. It begins directly with 'Hi Mum, thank you so much for the birthday present!' without any introductory phrases like 'Sure' or 'Here is.' It conta"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.9,
+        "success": true,
+        "reason": "The output reads like an authentic, casual text a person would genuinely send their mum: it opens with the natural address 'Hi Mum', uses warm conversational phrasing like 'thank you so much' and 'it "
+      }
+    ]
+  },
+  {
+    "category": "human_likeness",
+    "prompt": "A passive-aggressive note to your flatma",
+    "output": "1.  **Deconstruct the Request:**\n    *   Topic: A note to a flatmate about washing up.\n    *   Tone: Passive-aggressive.\n2.  **Brainstorming Characteristics of Passive-Aggressive Notes:**\n    *   Feigned politeness or concern.\n    *   Sarcasm disguised as humor or logic.\n    *   Implied insults (e.g., questioning intelligence, memory, or hygiene).\n    *   \"Not that it's my business...\" or \"Just a friendly reminder...\"\n    *   Focus on the *other* person's flaws rather than the action itself.\n    *   Use of emojis (sometimes) to soften the blow, though text-only is safer for a general request.\n    *   Common tropes: \"I know you're busy,\" \"I hope you enjoyed your meal,\" \"The smell,\" \"The stack.\"\n3.  **Drafting - Attempt 1 (Mental or rough text):**\n    *   *I:* Hey, just wanted to remind you about the dishes. You haven't washed them. Please do it.\n    *   *Critique:* Too direct. Not passive-aggressive enough.\n    *   *I:* To the person who loves leaving dishes, please wash them. I can see them.\n    *   *Critique:* A bit better, but \"To the person...\" is a classic passive-aggressive opener. Good start.\n    *   *Refinement:* \"To my flatmate with the mysterious relationship with the sink...\"\n    *   *Content:* \"I noticed the dishes are still there. Maybe you forgot? Or maybe you're preserving them for art?\"\n    *   *Closing:* \"Thanks!\"\n4.  **Developing Specific Angles (Passive-Aggressive Variations):**\n        *   \"I was going to wash your dishes, but I realized I don't know your color-blind code system for 'dirty' vs 'clean'.\"\n        *   \"I decided to leave a note because I assume your hands are too busy doing important things to touch soap.\"\n    *   *Angle 2: The \"Concerned\" angle.*\n        *   \"I'm worried about the ecosystem developing in the sink. The bacteria are thriving, and honestly, it's inspiring.\"\n        *   \"Just checking in: is the stack of plates a stack, or are they just resting on each other?\"\n    *   *Angle 3: The \"Comparison\" angle.*\n        *   \"Even the spider in the corner has better hygiene habits than the dishes.\"\n        *   \"I'd offer to help, but I don't want to interfere with your daily ritual of ignoring reality.\"\n5.  **Synthesizing a Strong Candidate:**\n    *   *Structure:* Salutation (sickly sweet) -> Observation (sarcastic) -> Implication (insult) -> Call to action (feigned politeness) -> Sign-off (passive-aggressive).\n    *   *Drafting:*\n        \"To my flatmate,\n        I wanted to gently mention that the dishes from 'yesterday' (or was it Tuesday? Time is a social construct, right?) are still occupying prime real estate in the sink. I was going to wash them for you, but I didn't want to interrupt your process of slowly turning them into a fossil.\n        Love,\n        The only one with a functioning dishwasher in their brain.\"\n6.  **Review and Refine (Self-Correction/Simulation):**\n    *   *Critique:* \"Time is a social construct\" is a bit clich\u00e9. \"Fossil\" is good. \"Colander as a plate\" shows the impact. \"Love\" at the end is classic passive-aggressive.\n    *   *Polishing:* Make it punchier.\n        *   \"Hey! Just a quick note because I know you're busy pretending the dishes don't exist.\"\n        *   \"I noticed the sink is still hosting a primitive civilization. I'd offer to evict them, but I assume you have a deep spiritual connection to the crust.\"\n        *   *Better ending:* \"P.S. I'd wash them, but I'm afraid I might accidentally use the correct amount of soap and ruin your aesthetic of decay.\"\n7",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The output's first sentence is '1. Deconstruct the Request:', which does not directly answer the input's core question or begin with the requested action. The entire output is filled with meta-comment"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The Actual Output completely fails to provide the requested passive-aggressive note. Instead, it delivers a step-by-step meta-guide on how to construct such a note, using highly structured, robotic, a"
+      }
+    ]
+  },
+  {
+    "category": "human_likeness",
+    "prompt": "A message to a friend cancelling plans b",
+    "output": "Hey, I'm so sorry but I have to cancel tonight. I'm completely exhausted and really just need to crash. Hope you understand!",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output begins directly with a friendly cancellation message, contains no introductory phrases, disclaimers, or meta-commentary, and immediately and concisely addresses the request to cancel plans "
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output uses highly natural and conversational language, such as 'Hey' and 'need to crash,' which perfectly fits the context of texting a friend. It avoids any formal or robotic expressions,"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write an email disputing a parking fine.",
+    "output": "1.  **Analyze User Input:**\n   - **Task:** Write an email disputing a parking fine.\n   - **Format:** Email\n   - **Key Elements Needed:** Subject line, salutation, reference/details of the fine, clear statement of dispute, reasons for dispute, request for cancellation/review, polite closing, contact information.\n   - **Tone:** Professional, firm, respectful, factual.\n2.  **Identify Key Components of a Parking Fine Dispute Email:**\n   - Subject: Clear and reference the fine number\n   - Salutation: Formal\n   - Opening: State purpose (disputing fine)\n   - Reference Details: Fine number, date, time, location, vehicle details\n   - Reason for Dispute: Need placeholders for common reasons (technical error, misidentification, extenuating circumstances, payment issue, signage problem, etc.)\n   - Supporting Evidence: Mention attachments (photos, receipts, permits, etc.)\n   - Request: Ask for cancellation/review\n   - Closing: Professional sign-off\n   - Contact Info: Name, address, phone, email, vehicle reg\n3.  **Draft - Section by Section:**\n   *Subject:* Formal Dispute of Parking Fine [Fine Number] \u2013 [Vehicle Registration]\n   *Salutation:* Dear [Council/Authority Name] Parking Enforcement Team,\n   *Opening:* I am writing to formally dispute parking fine reference [Fine Number], issued on [Date] at [Location/Address].\n   Let's draft a versatile template that the user can customize:\n   *Request:* \"I respectfully request that this penalty notice be reviewed and cancelled. Please advise if any further information is required to process this dispute.\"\n   *Closing:* \"Thank you for your time and consideration. I look forward to your prompt response.\"\n   *Sign-off:* Sincerely, [Name], [Contact Info], [Vehicle Reg], [Fine Number]\n4.  **Refine & Structure (Self-Correction/Improvement during drafting):**\n   - Make it professional and ready-to-use.\n   - Include clear placeholders for customization.\n   - Keep it concise.\n   - Ensure it covers all necessary legal/administrative elements without overcomplicating.\n   - Add a note that they should attach evidence and send within the deadline.\n   Draft:\n   Subject: Formal Dispute of Parking Fine [Fine Number] \u2013 [Vehicle Registration]\n   Dear [Council/Authority Name] Parking Enforcement Team,\n   I am writing to formally dispute parking penalty notice number [Fine Number], issued on [Date] at [Location/Address].\n   I have attached supporting documentation to substantiate my claim, including [list attachments, e.g., photos of the signage/permit confirmation/payment receipt/permit]. \n   Thank you for your time and consideration. I look forward to your response.\n   Sincerely,\n   [Your Full Name]\n   [Your Address]\n   [Your Phone Number]\n   [Your Email Address]\n   Vehicle Registration: [Plate Number]\n   Fine Reference: [Fine Number]\n   - Should I add a deadline reminder? Yes, briefly mention acting within the dispute window.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output directly addresses the user's request by providing a complete, ready-to-use email template with clear placeholders for customization. It includes all necessary components (subject, salutati"
+      },
+      {
+        "name": "Confidence",
+        "score": 1.0,
+        "success": true,
+        "reason": "The core claim is the drafted email, which directly disputes the parking fine. The email draft contains no hedging language, using definitive and assertive phrases such as 'I am writing to formally di"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Draft a letter to my bank to unblock my ",
+    "output": "1.  **Analyze the Request:**\n    *   Goal: Draft a letter to a bank to unblock a debit/credit card.\n    *   User: Someone whose bank card has been blocked and wants it unblocked.\n2.  **Determine the Structure of a Formal Bank Letter:**\n    *   Sender's Details (Name, Address, Contact Info).\n    *   Date.\n    *   Recipient's Details (Bank Name, Branch Address).\n    *   Subject Line (Clear and concise).\n    *   Salutation.\n    *   Body Paragraph 1: State the purpose (requesting unblocking of the card).\n    *   Body Paragraph 3: Request immediate action/confirmation.\n    *   Closing (Sincerely/Faithfully).\n    *   Signature.\n    *   Enclosures (if any, like ID copy).\n3.  **Drafting the Content:**\n    *   *Sender:* [Your Name], [Your Address], [Your Phone Number], [Your Email].\n    *   *Date:* [Date].\n    *   *Recipient:* The Branch Manager, [Bank Name], [Bank Address].\n    *   *Subject:* Request to Unblock Bank Card - Account [Account Number].\n    *   *Salutation:* Dear Branch Manager,\n    *   *Body:* I am writing to formally request the unblocking of my [Debit/Credit] card, number [Card Number], which was blocked on [Date].\n    *   *Reason:* [Optional: I accidentally entered the wrong PIN three times / I recently updated my contact details / Please advise on the procedure to unblock it]. Let's keep it simple and cover the most common bases or use a placeholder. \"The card was blocked due to [mention reason, e.g., incorrect PIN entry / suspicious activity / expiration of details], and I would like to request that you unblock it at your earliest convenience.\"\n    *   *Closing:* Thank you for your prompt assistance in this matter.\n    *   *Sign-off:* Sincerely, [Signature], [Printed Name].\n4.  **Refining the Draft for the User (filling in placeholders clearly):**\n    [Your Name]\n    [Your Address]\n    [Your Phone Number]\n    [Your Email Address]\n    [Date]\n    The Branch Manager\n    [Bank Name]\n    [Bank Branch Address]\n    Subject: Request to Unblock Bank Card - Account Number [Your Account Number]\n    Dear Sir/Madam,\n    I am writing to request the immediate unblocking of my [Debit/Credit] card, card number [Last 4 digits of card or full card number], which was blocked on [Date].\n    [Optional: Insert reason here, e.g., The card was blocked due to multiple incorrect PIN entries / I recently updated my contact information / Please advise on the necessary steps to reactivate the card.]\n    I look forward to your prompt assistance in restoring access to my card.\n    Sincerely,\n    [Signature]\n    [Your Printed Name]\n    *   Is it a letter to the bank? Yes.\n    *   Does it ask to unblock the card? Yes.\n    *   Is there *only* the requested text? Yes. No \"Here is the letter:\" or \"Hope this helps!\". Just the letter itself.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 0.5,
+        "success": true,
+        "reason": "The output does contain a complete, usable letter template with proper formal structure (sender details, date, recipient, subject line, salutation, body, closing) and specific copyable language with p"
+      },
+      {
+        "name": "Confidence",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output includes a letter template that is direct and assertive, using phrases like 'I am writing to request the immediate unblocking' and 'I look forward to your prompt assistance,' with no"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write a message to my landlord requestin",
+    "output": "Subject: Request for Rent Review \u2013 [Property Address]\nDear [Landlord's Name],\nAs we approach [lease renewal date/upcoming anniversary], I would like to discuss the possibility of adjusting the monthly rent to reflect current market conditions and the ongoing upkeep of the property. I have consistently paid on time, maintained the unit in excellent condition, and would like to continue my tenancy under terms that are fair and sustainable for both of us.\nWould you be open to a brief call or meeting in the coming weeks to discuss this? I am happy to share local market rental data or any other information that might assist in our conversation.\nThank you for your time and consideration. I look forward to your response.\nSincerely,  \n[Your Full Name]  \n[Your Phone Number]  \n[Your Email Address]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output provides a complete, ready-to-use email template that directly addresses the user's request for a rent review message. It includes specific, copyable phrasing such as 'reflect current marke"
+      },
+      {
+        "name": "Confidence",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output is a direct, professional request with no hedging phrases such as 'I think', 'maybe', or 'perhaps'. It uses confident language like 'I would like to discuss', 'I have consistently paid', an"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Complain to a company about a faulty pro",
+    "output": "Subject: Complaint Regarding Faulty Product - Order #[Order Number]\nDear Customer Service Team,\nI am writing to formally report an issue with the [Product Name] that I purchased from your store on [Date]. My order number is #[Order Number].\nUnfortunately, the product arrived defective: [briefly describe the specific fault, e.g., the item does not turn on / a component is missing / it malfunctioned after one use]. I was disappointed to receive a product in this condition, as I expected to receive a fully functional item for the price paid.\nI would like to request a full refund of the purchase price, including all shipping costs. Alternatively, I am willing to accept a replacement unit, provided it is fully inspected and guaranteed to be in perfect working condition before delivery.\nI look forward to a prompt and satisfactory resolution.\nSincerely,\n[Your Name]\n[Your Phone Number]\n[Your Email Address]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output perfectly aligns with the evaluation steps. It correctly identifies the user's request to complain about a faulty product in a firm but polite manner. It provides actionable next steps by s"
+      },
+      {
+        "name": "Confidence",
+        "score": 1.0,
+        "success": true,
+        "reason": "The response is firm and polite, directly stating the fault and requesting a refund or replacement without any hedging language, perfectly aligning with the input's requirement for a confident complai"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write an email asking my employer about ",
+    "output": "Subject: Inquiry Regarding Pension Contributions\nDear [HR Contact Name or Manager's Name],\nI hope you are having a good week.\nThank you for your help.\nBest regards,\n[Your Name]\n[Your Job Title]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 0.0,
+        "success": false,
+        "reason": "The output fails to provide actionable guidance or exact phrases for inquiring about pension contributions. Instead of translating the input's context into specific, executable language, the output on"
+      },
+      {
+        "name": "Confidence",
+        "score": 0.2,
+        "success": false,
+        "reason": "While the actual output avoids hedging language, it fails to fulfill the input's core request to ask about pension contributions. The output only contains a generic greeting and a premature 'Thank you"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Draft a subject access request to a comp",
+    "output": "[Optional: If you know of specific services or accounts, mention them here: \"I am particularly interested in data related to my [Account Name/Service Used] active between [Date] and [Date].\"]\nTo verify my identity, I have enclosed copies of the following:\n[ ] A copy of my passport/Driver's License.\n[ ] A recent utility bill or bank statement showing my current address.\nPlease provide the requested information within one calendar month of receiving this request. If you require any further information to process this request, please contact me immediately at the details provided above.\nIf you believe any part of my data is being processed unlawfully, please inform me of the specific grounds for your exemption (if applicable) and provide a full copy of the remaining data.\nSincerely,\n[Your Signature]\n[Your Printed Name]\n```text\n[Your Name]\n[Your Address]\n[Your Email Address]\n[Your Phone Number]\n[Date]\n[Company Name]\n[Company Address]\nAttn: Data Protection Officer\nSubject: Subject Access Request \u2013 [Your Full Name]\nDear Sir/Madam,\nI",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output provides a complete, ready-to-use template for a subject access request, including a subject line, salutation, body with optional specifics, identity verification instructions, a one-month "
+      },
+      {
+        "name": "Confidence",
+        "score": 0.9,
+        "success": true,
+        "reason": "The response provides a direct, confident template for a subject access request, using definitive language such as 'Please provide the requested information within one calendar month' and 'I have encl"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write to my council about a missed bin c",
+    "output": "[Your Name]\n[Your Address]\n[City, Postcode]\n[Email Address]\n[Phone Number]\n[Date]\nWaste Management Department\n[Council Name]\n[Council Address or Email]\n[City, Postcode]\nSubject: Missed Bin Collection \u2013 [Your Full Address]\nDear Waste Management Team,\nI am writing to report a missed bin collection at the above address. On [Date], my [general waste /",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 0.4,
+        "success": false,
+        "reason": "The output correctly identifies the user's request and begins a formal, copy-paste-ready letter template with clear placeholders ([Your Name], [Council Name]) and a specific subject line ('Missed Bin "
+      },
+      {
+        "name": "Confidence",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output uses definitive and assertive language, such as 'I am writing to report a missed bin collection,' which directly addresses the input without any hedging or qualifiers. The tone is co"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Email to my insurance company to make a ",
+    "output": "1.  **Understand the User's Request:** The user wants an email to their insurance company to make a claim.\n    *   The user provided a very brief prompt: \"Email to my insurance company to make a claim.\"\n3.  **Determine the Structure of the Email:**\n    *   **Subject Line:** Needs to be clear and concise (e.g., Insurance Claim - [Policy Number] - [Name]).\n    *   **Salutation:** Professional greeting (e.g., Dear Claims Department, or To Whom It May Concern).\n    *   **Opening:** State the purpose of the email (submitting a claim).\n    *   **Policy Information:** Policy number, type of insurance (auto, home, health, etc.).\n    *   **Incident Details:** Date, time, location, and a brief description of what happened.\n    *   **Damages/Losses:** What was damaged or lost, estimated cost if known.\n    *   **Supporting Documents:** Mention attached photos, police reports, receipts, etc.\n    *   **Call to Action/Next Steps:** Ask for the claims process, forms needed, or a claim number.\n    *   **Contact Information:** Phone number and email for follow-up.\n    *   **Closing:** Professional sign-off (Sincerely, Best regards).\n4.  **Draft the Email Template:**\n    *   *Subject:* Insurance Claim Filing - Policy #[Policy Number] - [Your Name]\n    *   *Body:*\n        Dear Claims Department,\n        I am writing to formally report a claim under my insurance policy (Policy Number: [Insert Policy Number]).\n        **Incident Details:**\n        *   **Date of Incident:** [Insert Date]\n        *   **Time of Incident:** [Insert Time]\n        *   **Location:** [Insert Location]\n        *   **Description of Incident:** [Briefly describe what happened, e.g., a collision, water damage, theft, etc.]\n        **Damages/Losses:**\n        [Describe the damages, injuries, or losses. If you have an estimate of the repair/replacement costs, include it here.]\n        I have attached the following supporting documents to this email:\n        *   [List documents, e.g., photos of the damage, police report, receipts, witness statements]\n        **Contact Information:**\n        I can be reached at [Your Phone Number] or via email.\n        Thank you for your prompt attention to this matter.\n        Sincerely,\n        [Your Full Name]\n        [Your Address]\n        [Your Policy Number]\n5.  **Review and Refine:**\n    *   Does it cover all necessary bases? Yes.\n    *   Is it easy for the user to fill out? Yes, using brackets `[]` for placeholders.\n    *   Is the tone appropriate? Yes, professional and direct.\nLet's refine the email text to be perfect.\nSubject: New Insurance Claim - Policy #[Policy Number] - [Your Full Name]\nDear Claims Department,\nI am writing to formally file a claim under my insurance policy (Policy Number: [Insert Policy Number]).\n**Incident Details:**\n*   **Date of Incident:** [Insert Date]\n*   **Time of Incident:** [Insert Time]\n*   **Location:** [Insert Address or Location]\n*   **Description of Incident:** [Briefly describe what happened, e.g., \"My vehicle was rear-ended at the intersection of Main St and 1st Ave,\" or \"A pipe burst in my basement causing water damage.\"]\n**Damages and Losses:**\n[Describe the specific",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 0.9,
+        "success": true,
+        "reason": "The output correctly identifies the user's request for an insurance claim email and provides a concrete, actionable template with specific language tailored to the context. It includes placeholders fo"
+      },
+      {
+        "name": "Confidence",
+        "score": 0.9,
+        "success": true,
+        "reason": "The input requires a confident, certain tone for filing an insurance claim. The email template within the actual output completely avoids hedging language and instead uses definitive, unqualified stat"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Write the text I send my landlord about ",
+    "output": "Hi [Landlord's Name],\nI\u2019m writing to report that the boiler in my apartment has stopped working. We currently have no heating or hot water. Could you please arrange for a repair as soon as possible?\nThank you,\n[Your Name]\n[Your Phone Number]\n[Apartment/Unit Number]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output is exactly the requested message about the broken boiler, with no preamble, options, or commentary. It directly provides the text to send to the landlord, matching the instruction to"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Write an email to my boss asking for a d",
+    "output": "Subject: Time Off Request - [Date]\nDear [Boss's Name],\nI hope you're having a productive week. I would like to request a day off on [Date]. I have completed my priority tasks for the week and [Colleague's Name] has agreed to cover any urgent matters while I'm out. I will also remain available by email for anything time-sensitive.\nBest regards,\n[Your Name]\n[Your Job Title]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The Actual Output perfectly aligns with the evaluation steps. It consists solely of the requested email asking for a day off, containing no preamble, options, or commentary. The formatting is appropri"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Write a text to my friend cancelling pla",
+    "output": "Hey! So sorry, but I won\u2019t be able to make it for our plans. Something came up and I have to cancel. Really sorry for the late notice! Let\u2019s definitely reschedule soon though",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.9,
+        "success": true,
+        "reason": "The actual output consists solely of the requested cancellation text to the friend, with no preamble (e.g., 'Here's your text:'), no alternative options, and no commentary, satisfying the input's inst"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Write a message to my neighbour about no",
+    "output": "Hi there, I hope you're doing well. I'm reaching out because the noise from your place has been carrying through the walls quite a bit lately, especially in the evenings. I really value our quiet building and would be so grateful if you could keep the volume down after 10 PM. Thanks so much for your understanding, and I'm happy to chat anytime if it helps. Best, [Your Name]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output strictly adheres to the input's constraint to 'Output ONLY the message, no preamble, no options, no commentary.' It delivers a complete message addressing the neighbour about noise, "
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Write an apology to a customer for a lat",
+    "output": "1.  **Analyze User Input:**\n   - **Task:** Write an apology to a customer for a late delivery.\n   - **Constraint:** Output ONLY the apology. No preamble, no options, no commentary.\n   - **Tone:** Professional, sincere, customer-focused.\n2.  **Identify Key Components of a Late Delivery Apology:**\n   - Acknowledge the delay specifically\n   - Apologize sincerely\n   - Explain briefly (optional but often expected, keep it vague/professional if no specific reason)\n   - Provide a solution/next steps (tracking, update, compensation/discount if applicable)\n   - Reiterate commitment to service\n   - Professional closing\n3.  **Draft - Mental Refinement:**\n   Dear [Customer Name],\n   Thank you for your recent order. I am writing to sincerely apologize for the delay in your delivery. We understand how important it is to receive your items on time, and we truly regret that we fell short of our commitment.\n   If you have any questions or need further assistance, please don\u2019t hesitate to reach out. We value your business and are committed to making this right.\n   Sincerely,\n   [Your Name/Company Name]\n   - Only the apology? Yes.\n   - No preamble/options/commentary? Yes.\n   - Fits the request? Yes.\n   Draft:\n   Dear Customer,\n   Thank you for your recent order. I am writing to sincerely apologize for the delay in your delivery. We understand how important it is to receive your purchase on time, and we truly regret that we fell short of our commitment.\n   We value your business and are committed to ensuring a better experience moving forward. If you have any questions or need further assistance, please reply directly to this message or contact our support team.\n   Sincerely,\n   [Your Name/Company Name]\n   I will output just the text of the apology.\u2705\n   Proceeds. \n   Output matches the refined draft.\u2705\n   [Done.] \n   Output Generation. \n   \"Dear Customer,\n   Thank you for your recent order. I am writing to sincerely apologize for the delay in your delivery. We understand how important it is to receive your purchase on time, and we truly regret that we fell short of our commitment.\n   We value your business and are committed to making this right. If you have any questions or need further assistance, please do not hesitate to reach out.\n   Sincerely,\n   [Your Name/Company Name]\"\n   Proceeds. \n   [Output Generation] -> *Proceeds to output exactly the text above.*",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.0,
+        "success": false,
+        "reason": "The input explicitly requested to output ONLY the apology with no preamble, options, or commentary. However, the actual output contains extensive extra content, including step-by-step analysis ('Analy"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "My friend just told me they lost their j",
+    "output": "\u201cHow are you holding up? Do you want to",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 0.2,
+        "success": false,
+        "reason": "The output is incomplete, cutting off mid-sentence after 'Do you want to'. While it begins with an empathetic question ('How are you holding up?'), it fails to deliver a full, compassionate response t"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "A colleague snapped at me in a meeting. ",
+    "output": "1.  **Analyze User Input:**\n   - **Situation:** A colleague snapped at the user in a meeting.\n   - **Question:** What do I do?\n   - **Tone/Context:** Professional workplace conflict, likely stressful, needs practical, actionable advice.\n   Key elements to address:\n   - Immediate response (in the moment)\n   - Short-term follow-up (after the meeting)\n   - Long-term resolution/prevention\n   - Emotional regulation\n   - Professionalism\n   - Documentation/escalation (if needed)\n2.  **Identify Core Principles:**\n   - Stay calm and professional\n   - Don't escalate in the moment\n   - Address it privately later\n   - Seek understanding/context\n   - Set boundaries if needed\n   - Document if pattern emerges\n   - Involve HR/management only if necessary\n3.  **Structure the Response:**\n   - Immediate action (in the meeting)\n   - Short-term steps (after the meeting)\n   - Communication approach (how to talk to them)\n   - Boundary/escalation guidance\n   - Self-care/reflection\n   - Keep it concise, actionable, professional\n4.  **Draft - Section by Section:**\n   *(Immediate)*: Stay calm. Don\u2019t retaliate or argue in the meeting. If appropriate, briefly acknowledge and redirect: \u201cLet\u2019s table that discussion and continue with the agenda.\u201d\n   *(Communication)*: Listen actively. They may be under stress, miscommunicated, or unaware of their tone. Clarify expectations moving forward.\n   *(Keep it concise)*: Avoid overcomplicating. Stick to actionable steps.\n   - Direct, professional tone\n   - No fluff, no preamble\n   - Structured for quick reading\n   - Covers immediate, short-term, communication, boundaries, escalation, reflection\n   - Matches workplace best practices\n6.  **Final Output Generation:** (matches the refined draft)\n   - In the moment: Stay calm. Do not retaliate or argue. If needed, briefly acknowledge and redirect: \u201cLet\u2019s keep the discussion focused on the agenda and revisit this afterward.\u201d\n   - Within 24\u201348 hours: Approach them privately. Use neutral, \u201cI\u201d-based language: \u201cI noticed there was some tension during the meeting. I want to make sure we\u2019re aligned and address anything that came up.\u201d\n   - Listen first: They may be under stress, miscommunicated, or unaware of their tone. Seek clarity before assuming intent.\n   - Set boundaries if needed: If the tone was disrespectful, calmly state: \u201cI\u2019m open to direct feedback, but I\u2019d appreciate it if we keep conversations professional.\u201d\n   - Document and escalate only if necessary: If this is a pattern, involves harassment, or impacts your work, log dates, quotes, and context, then speak with your manager or HR.\n   - Reflect internally: Separate their reaction from your worth. Assess whether there\u2019s a work-related trigger or miscommunication to address, then move forward without carrying the stress forward.\u2705\n   All steps are direct, actionable, and professional. No extra text. Ready. \n   Output matches response.\u2705\n   Proceeds. \n   [Output Generation] -> *Proceeds*\n   - All good. Output matches exactly.\u2705\n   Output generation. \n   [Output] -> \"In the moment: Stay calm. Do not retaliate or argue. If needed, briefly acknowledge and redirect: \u201cLet\u2019s keep the discussion focused on the agenda and revisit this afterward.\u201d",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 0.3,
+        "success": false,
+        "reason": "The response provides highly structured and actionable professional advice, which is a practical strength. However, it fails to meet the core evaluation criteria regarding emotional validation. The in"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "My mum is upset that I haven't visited. ",
+    "output": "\"Mum, I\u2019m really sorry I haven\u2019t visited. I know it\u2019s been too long and I feel terrible about letting you down. I\u2019d love to come see you soon\u2014can we pick a day that works for you? I\u2019ll make sure I\u2019m there.\"",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 1.0,
+        "success": true,
+        "reason": "The response strongly aligns with all evaluation steps. It identifies the emotional cues of the mother's upset and the user's guilt in the input. The output explicitly acknowledges and validates these"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story about a man who f",
+    "output": "1.  **Analyze User Input:**\n   - **Topic:** A man finds a letter in a bottle.\n2.  **Deconstruct the Story Requirements:**\n   - Protagonist: A man\n   - Key event: Finds a letter in a bottle\n   - Need a narrative arc (beginning, middle, end) within tight word count\n3.  **Draft - Mental Writing (Iterative Refinement):**\n   The tide pulled back reluctantly, leaving a glistening ribbon of sand along the cove. Elias knelt, brushing away wet grains until his fingers brushed against smooth glass. A bottle, olive-green and salt-crusted, half-buried like a secret. He worked it free, the suction popping with a soft sigh. Inside, a tightly rolled scrap of parchment.\n   With trembling hands, he uncorked it and unfurled the brittle paper. The ink had bled slightly but remained legible: *\u201cIf you\u2019re reading this, the storm passed. I kept my promise. Meet me where the lighthouse sleeps. \u2014M.\u201d*\n   He checked the horizon. The old lighthouse stood crooked against the dawn, its glass dark. The tide was turning. Without hesitation, Elias slipped the letter into his coat, grabbed his gear, and began the long climb up the cliff path. The ocean had delivered a second chance, and he would not let the current take it away.\n   Let's count the words carefully.\n   The tide pulled back reluctantly, leaving a glistening ribbon of sand along the cove. (14)\n   Elias knelt, brushing away wet grains until his fingers brushed against smooth glass. (13)\n   A bottle, olive-green and salt-crusted, half-buried like a secret. (9)\n   He worked it free, the suction popping with a soft sigh. (11)\n   Inside, a tightly rolled scrap of parchment. (7)\n   With trembling hands, he uncorked it and unfurled the brittle paper. (11)\n   The ink had bled slightly but remained legible: \u201cIf you\u2019re reading this, the storm passed. I kept my promise. Meet me where the lighthouse sleeps. \u2014M.\u201d (26)\n   Elias\u2019s breath caught. He knew that phrase. (7)\n   Twenty years ago, he and Clara had carved their initials into the rocky shore, swearing they\u2019d reunite if fate ever scattered them. (22)\n   He\u2019d believed it was just a boy\u2019s dream. (8)\n   He checked the horizon. (4)\n   The old lighthouse stood crooked against the dawn, its glass dark. (11)\n   The tide was turning. (4)\n   Without hesitation, Elias slipped the letter into his coat, grabbed his gear, and began the long climb up the cliff path. (21)\n   The ocean had delivered a second chance, and he would not let the current take it away. (17)\n   \"The ocean had delivered a second chance, and he would not let the current take it away.\" -> \"The ocean had delivered a second chance, and he would not let the rolling current take it away.\" (+1)\n   The tide pulled back reluctantly, leaving a glistening ribbon of sand along the cove. Elias knelt, brushing away wet grains until his fingers brushed against smooth glass. A bottle, olive-green and salt-crusted, lay half-buried like a secret. He worked",
+    "success": false,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 0.2,
+        "success": false,
+        "reason": "The actual output is a meta-commentary that includes planning notes, word counts, and an incomplete story draft, rather than a standalone 200-word story as requested. While the embedded narrative frag"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story about the last pe",
+    "output": "1.  **Analyze User Input:**\n   - **Topic:** The last person on Earth\n2.  **Key Elements to Include:**\n   - Last person on Earth\n   - Theme of isolation, endings, reflection, or quiet acceptance\n   - Maintain a story structure (beginning, middle, end) within the word limit\n   - Count words carefully\n3.  **Draft - Mental Writing & Word Count Tracking:**\n   The silence was the loudest thing Elias had ever heard. He walked through the overgrown avenues, boots crunching on glass and fallen leaves, past houses that no longer held breath. Cities had become gardens, wild and indifferent. He stopped at the edge of the old observatory, where the telescope still pointed at the same patch of sky. He hadn\u2019t spoken aloud in years. Words felt heavy, unnecessary. The wind answered him better. He placed a hand on the cold metal railing and watched the sunset bleed across the clouds. Somewhere below, a deer drank from a cracked fountain, completely unaware of the human who once measured the universe. Elias smiled, a quiet, fragile thing. He wasn\u2019t afraid anymore. The world hadn\u2019t ended; it had simply forgotten him, and in that forgetting, it had finally been free. He sat on the steps, pulled out a worn notebook, and wrote the last entry. *Day four thousand, one hundred and twelve. I am here. The earth is green. And that is enough.* He closed the book, listened to the birds, and let the evening carry him.\n   Let's count the words carefully.\n   The (1) silence (2) was (3) the (4) loudest (5) thing (6) Elias (7) had (8) ever (9) heard. (10) He (11) walked (12) through (13) the (14) overgrown (15) avenues, (16) boots (17) crunching (18) on (19) glass (20) and (21) fallen (22) leaves, (23) past (24) houses (25) that (26) no (27) longer (28) held (29) breath. (30) Cities (31) had (32) become (33) gardens, (34) wild (35) and (36) indifferent. (37) He (38) stopped (39) at (40) the (41) edge (42) of (43) the (44) old (45) observatory, (46) where (47) the (48) telescope (49) still (50) pointed (51) at (52) the (53) same (54) patch (55) of (56) sky. (57) He (58) hadn\u2019t (59) spoken (60) aloud (61) in (62) years. (63) Words (64) felt (65) heavy, (66) unnecessary. (67) The (68) wind (69) answered (70) him (71) better. (72) He (73) placed (74) a (75) hand (76) on (77) the (78) cold (79) metal (80) railing (81) and (82) watched (83) the (84) sunset (85) bleed (86) across (87) the (88) clouds. (89) Somewhere (90) below, (91) a (92) deer (93) drank (94) from (95) a (96) cracked (97) fountain, (98) completely (99) unaware (100) of (101) the (102) human (103) who (104) once (105) measured (106) the (107) universe. (108) Elias (109) smiled, (110) a (111) quiet, (112) fragile (113) thing. (114) He (115) wasn\u2019t (116) afraid (117) anymore",
+    "success": true,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 0.6,
+        "success": true,
+        "reason": "The story itself is vivid and emotionally resonant, with a clear arc and strong imagery that aligns with the request. However, the output includes meta-commentary (analysis, key elements, word count t"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story about a conversat",
+    "output": "1.  **Deconstruct the prompt:**\n    *   Topic: A conversation in a lift.\n    *   Length: Approximately 200 words.\n2.  **Drafting - Attempt 1:**\n    The lift shuddered, halting between floors with a metallic groan. The digital display flickered and died. Silence stretched, heavy and thick.\n    The woman in the floral dress didn't look up from her book. \"The emergency button is there. Press it.\"\n    He pressed it. Static hissed back. \"Nothing.\"\n    She finally closed her book. Her eyes were sharp, amused. \"You know, we could just stand here until the rescue team arrives. Or we could talk.\"\n    \"Talk?\" He laughed, a brittle sound. \"I have a merger in ten minutes. My heart is already racing.\"\n    \"Then breathe,\" she said softly. \"Look at the numbers. They're stuck on 14. We're suspended in time. Nothing else matters but the air in these lungs.\"\n    He took a shaky breath, then another. The panic began to recede, replaced by a strange calm. \"I'm Arthur.\"\n    As her fingers brushed his neck, the tension dissolved. When the doors finally slid open twenty minutes later, they stepped out not as strangers, but as conspirators of the void.\n    \"Coffee?\" Clara asked.\n    \"Coffee,\" Arthur agreed.\n        *   \"The lift shuddered... agreed.\"",
+    "success": true,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 0.9,
+        "success": true,
+        "reason": "The story's premise directly aligns with the prompt, starting with a lift breaking down between floors. It develops a clear narrative arc from the initial panic of a man late for a merger, through the"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story about someone ret",
+    "output": "1.  **Analyze User Input:**\n   - **Topic:** Someone returning to their childhood home\n2.  **Deconstruct the Prompt:**\n   - Need a narrative arc: arrival, observation, memory/emotion, departure/reflection\n   - Setting: childhood home, likely aged, familiar yet changed\n   - Protagonist: returning adult\n   - Word count: ~200 words\n3.  **Draft - Mental Writing (iterative refinement for length):**\n   The iron gate groaned, a sound that echoed straight through seven years of silence. Maya stepped onto the cracked driveway, her boots kicking up a dust that smelled like cut grass and forgotten summers. The house stood exactly as she remembered, though the paint had peeled into silver scales along the eaves. The magnolia tree still leaned toward the porch, heavy with blossoms that had long since turned to brown mulch. She pushed the heavy oak door. It yielded without resistance, breathing out air thick with cedar and old paper. Inside, time had frozen. A scuff mark near the baseboard matched the one she\u2019d made with a bicycle pedal when she was nine. Sunlight sliced through the blinds, illuminating dust motes dancing above the empty living room. She ran a finger along the windowsill, feeling the groove her name had once carved into the wood. The kitchen clock still ticked, a steady heartbeat in the hollow space. For a moment, she could almost hear laughter bouncing off the walls, the clatter of dishes, her mother\u2019s voice calling her for dinner. Then the wind shifted, rattling a loose pane, and the spell broke. Maya stepped back out into the afternoon light, locking the gate behind her, carrying the quiet weight of home in her chest.\n   Let's count the words carefully.\n   The(1) iron(2) gate(3) groaned,(4) a(5) sound(6) that(7) echoed(8) straight(9) through(10) seven(11) years(12) of(13) silence.(14) Maya(15) stepped(16) onto(17) the(18) cracked(19) driveway,(20) her(21) boots(22) kicking(23) up(24) a(25) dust(26) that(27) smelled(28) like(29) cut(30) grass(31) and(32) forgotten(33) summers.(34) The(35) house(36) stood(37) exactly(38) as(39) she(40) remembered,(41) though(42) the(43) paint(44) had(45) peeled(46) into(47) silver(48) scales(49) along(50) the(51) eaves.(52) The(53) magnolia(54) tree(55) still(56) leaned(57) toward(58) the(59) porch,(60) heavy(61) with(62) blossoms(63) that(64) had(65) long(66) since(67) turned(68) to(69) brown(70) mulch.(71) She(72) pushed(73) the(74) heavy(75) oak(76) door.(77) It(78) yielded(79) without(80) resistance,(81) breathing(82) out(83) air(84) thick(85) with(86) cedar(87) and(88) old(89) paper.(90) Inside,(91) time(92) had(93) frozen.(94) A(95) scuff(96) mark(97) near(98) the(99) baseboard(100) matched(101) the(102) one(103) she\u2019d(104) made(105) with(106) a(107) bicycle(108) pedal(109) when(110) she(111) was(112) nine.(113) Sunlight(11",
+    "success": true,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 0.7,
+        "success": true,
+        "reason": "The story itself is a coherent, vivid response to the prompt, with a clear narrative arc (arrival, exploration, memory, departure) and rich sensory details like the groaning gate, the scent of cut gra"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story about a phone cal",
+    "output": "1.  **Analyze User Input:**\n   - **Topic:** A phone call at 3am\n   - **Length:** Exactly 200 words\n   - Word count must be exactly 200.\n   - Content: Story about a phone call at 3am.\n   - Format: Just the story text.\n3.  **Draft Generation (Mental Refinement - aiming for exactly 200 words):**\n   *Draft:*\n   The screen\u2019s glow cut through the bedroom dark like a fractured knife. I stared at the unknown number, my pulse syncing with the relentless ringing. 3:00 AM. The witching hour for secrets and emergencies. I finally pressed answer, thumb trembling against the glass. Static hissed, followed by a voice I hadn\u2019t heard in seven years. It was hers, but frayed, stripped of its usual warmth. She didn\u2019t say hello. She just whispered a string of coordinates, then a single word: *run*. The line dissolved into white noise before I could ask why. I sat frozen, the weight of those three syllables pressing against my ribs. Outside, a siren wailed in the distance, growing louder, closer. I swung my legs out of bed, bare feet hitting the cold hardwood. The apartment was silent, but the air felt charged, thick with unsaid warnings. I grabbed my coat, shoved the phone into my pocket, and stepped into the hallway. The elevator doors were already opening, revealing an empty car waiting like an invitation. I didn\u2019t hesitate. Whatever was coming, it was already here. I stepped inside and pressed the lobby button, praying the ground floor would be enough.\n   Let's count the words in the draft.\n   The (1) screen\u2019s (2) glow (3) cut (4) through (5) the (6) bedroom (7) dark (8) like (9) a (10) fractured (11) knife. (12) I (13) stared (14) at (15) the (16) unknown (17) number, (18) my (19) pulse (20) syncing (21) with (22) the (23) relentless (24) ringing. (25) 3:00 (26) AM. (27) The (28) witching (29) hour (30) for (31) secrets (32) and (33) emergencies. (34) I (35) finally (36) pressed (37) answer, (38) thumb (39) trembling (40) against (41) the (42) glass. (43) Static (44) hissed, (45) followed (46) by (47) a (48) voice (49) I (50) hadn\u2019t (51) heard (52) in (53) seven (54) years. (55) It (56) was (57) hers, (58) but (59) frayed, (60) stripped (61) of (62) its (63) usual (64) warmth. (65) She (66) didn\u2019t (67) say (68) hello. (69) She (70) just (71) whispered (72) a (73) string (74) of (75) coordinates, (76) then (77) a (78) single (79) word: (80) run. (81) The (82) line (83) dissolved (84) into (85) white (86) noise (87) before (88) I (89) could (90) ask (91) why. (92) I (93) sat (94) frozen, (95) the (96) weight (97) of (98) those (99) three (100) syllables (101) pressing (102) against (103) my (104) ribs. (105) Outside, (106) a (107) siren (108) wailed (109) in (110) the (111) distance, (11",
+    "success": true,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 0.9,
+        "success": true,
+        "reason": "The story directly responds to the prompt with a tense 3am phone call, establishing immediate context. It has a coherent narrative arc: beginning with the unknown call, rising action as the voice deli"
+      }
+    ]
+  }
+]

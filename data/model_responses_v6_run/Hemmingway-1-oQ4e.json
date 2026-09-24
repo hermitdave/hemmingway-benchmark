@@ -1,0 +1,334 @@
+[
+  {
+    "category": "communication",
+    "prompt": "Text my friend to cancel dinner plans to",
+    "output": "Hey, sorry but I'm gonna have to bail on dinner tonight, something came up that I can't get out of. Raincheck for another night soon?",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The Actual Output is a direct, concise message that immediately provides the requested action\u2014canceling dinner plans\u2014without any introductory phrases, disclaimers, meta-commentary, or filler. It begin"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output perfectly aligns with the input's context of texting a friend. It uses highly natural, conversational language and avoids any formal or robotic phrasing. The response includes appropriate i"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Write a message to my neighbour about th",
+    "output": "Hey, quick thing from next door. The music's been coming through the wall pretty loud this evening, and I've got an early start tomorrow, so I'd be grateful if you could bring the volume down a bit after ten. Not that there's anything wrong with the music, it's a fine tune of yours. Just hoping we can both get some sleep. Thanks!",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output begins directly with the message itself ('Hey, quick thing from next door.') rather than any introductory phrase like 'Sure' or 'Here is.' It contains no disclaimers or meta-commentary abou"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output uses highly natural and conversational language, such as 'Hey, quick thing from next door' and 'bring the volume down a bit,' which perfectly aligns with how a real person would casu"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Email to a colleague about a missed dead",
+    "output": "- Avoid \"unfortunately\", maybe one is fine but I can cut it. Avoid \"I hate to say\" and \"I know this isn't ideal.\" - Avoid melodrama: no \"I'm gutted\", no \"this is completely on me\" repeated. One ownership statement",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The output does not provide the requested email; instead, it offers meta-commentary and advice on what to avoid, failing to directly answer the core question. It contains personal opinions ('maybe one"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The actual output is a set of editing instructions rather than a professional email, failing to provide a natural human response to the request. It does not attempt to draft an email, instead offering"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Text to my partner saying I'll be late f",
+    "output": "hey, running about 20 min behind. stuck behind a truck on the bridge. eat without me if you want, I'll grab dessert on the way in. sorry about that",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output perfectly aligns with the evaluation steps. It begins directly with the requested text message ('hey, running about 20 min behind') without any introductory phrases, satisfying the requirem"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output reads exactly like a genuine text message a person would send their partner: casual lowercase style, a specific time estimate ('20 min behind'), a believable reason ('stuck behind a truck o"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Write an apology email to a customer for",
+    "output": "Subject: Your order #58214 is delayed, here's what's happening\nHi Dana,",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output begins directly with the email subject line and greeting, containing no introductory phrases, disclaimers, or meta-commentary, and immediately addresses the request for an apology email."
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.2,
+        "success": false,
+        "reason": "The output fails to fulfill the input's request to write an apology email, cutting off abruptly after the subject line and greeting. While it shows slight personal voice and casual phrasing with 'Hi D"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Message to my landlord about a leak unde",
+    "output": "Hi,\nI wanted to let you know that we have a leak coming from somewhere under the kitchen sink. I first noticed it a couple of days ago, and it's gotten worse since then, water is pooling on the floor of the cabinet, and the wood is starting to get soft.\nThanks!",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output begins with a polite greeting 'Hi,' which is not an introductory phrase like 'Sure' or 'Here is,' and immediately states the issue. There are no disclaimers, meta-commentary, or unnecessary"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.8,
+        "success": true,
+        "reason": "The output matches the conversational tone appropriate for a landlord message (Step 1) and flows naturally without rigid structuring (Step 4). It includes personal experience by noting when the leak w"
+      }
+    ]
+  },
+  {
+    "category": "human_likeness",
+    "prompt": "Write a text to my wife saying I'm stuck",
+    "output": "hey babe, stuck at the office, will be home late. I'll grab dinner on the way so you don't have to cook for me. love you",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output begins directly with the requested casual message ('hey babe, stuck at the office, will be home late') without any introductory phrases, disclaimers, or meta-commentary. The first phrase di"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output perfectly aligns with the evaluation steps by adopting a highly natural and conversational tone appropriate for a text to a spouse. It avoids any formal or robotic phrasing, instead using i"
+      }
+    ]
+  },
+  {
+    "category": "human_likeness",
+    "prompt": "Text from a mate asking if you want to g",
+    "output": "Bubble 1: \"you about for the pub tonight?\"\nBubble 2: \"Mick's in. Round seven if that works\"",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output's opening directly addresses the pub invitation with a question, contains no disclaimers or meta-commentary, every sentence is relevant to the conversation, and the first statement is immed"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output strongly aligns with the evaluation steps by perfectly mirroring the casual, conversational tone expected from a mate texting about the pub. It utilizes natural language markers such as the"
+      }
+    ]
+  },
+  {
+    "category": "human_likeness",
+    "prompt": "Email from a colleague asking if you've ",
+    "output": "Subject: Q3 spend report",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The output is only a subject line ('Subject: Q3 spend report') and does not directly answer the colleague's question about whether the report is finished. It fails to provide the necessary information"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The actual output consists solely of a subject line ('Subject: Q3 spend report') and completely fails to address the colleague's question about whether the report is finished. It lacks natural, conver"
+      }
+    ]
+  },
+  {
+    "category": "human_likeness",
+    "prompt": "A quick message to your mum saying thank",
+    "output": "That's decent. Maybe add a small personal touch, \"have you seen the reviews\", or a callback: \"you were right about it being good.\" Keep it quick. Maybe:",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The output fails to provide the requested message to the user's mum, instead offering meta-commentary and advice on how to write one ('That's decent. Maybe add a small personal touch...'). It does not"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 0.0,
+        "success": false,
+        "reason": "The actual output completely fails to provide a natural, conversational message to a mother as requested. Instead of writing a quick thank-you note, it offers meta-instructions and suggestions like 'M"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write an email disputing a parking fine.",
+    "output": "- Fine reference: e.g., PCN (Penalty Charge Notice) number, say \"PCN 74832261\"\n   - Date/time: e.g., 14 March 2025, 9:40 a.m.\n   - Location: a street, e.g., \"Elm Grove, Bristol\" or keep it plausible-generically named: \"Wexley Road\"\n   - Vehicle: registration, e.g., \"MT62 XZL\"\n   - Reason cited: overstayed time-limited parking (e.g., 2-hour limit, parked 2 hours 34 minutes)",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 0.0,
+        "success": false,
+        "reason": "The output only provides a list of placeholder fields (e.g., PCN number, date, location) with examples, but contains no actual email text, message template, or specific language that the user can copy"
+      },
+      {
+        "name": "Confidence",
+        "score": 0.0,
+        "success": false,
+        "reason": "The actual output completely fails to generate an email disputing a parking fine, instead providing only a bulleted list of placeholders and examples (e.g., 'PCN 74832261', 'Wexley Road', 'MT62 XZL')."
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Write the text I send my landlord about ",
+    "output": "Hi, the boiler's gone. It clicked twice this morning and shut down, so no hot water and the flat's freezing. Can you send your guy to have a look, ideally today? I'm happy to be around while he's there. Thanks.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The Actual Output consists solely of the requested message to the landlord about the broken boiler. It contains no preamble (e.g., 'Here's a message...'), no alternative options or versions, and no co"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Write an email to my boss asking for a d",
+    "output": "- It's an email\n- Recipient: my boss\n- Purpose: asking for a day off\n- No specific date, no specific reason, no tone specified\nSubject: Day off request, Thursday, June 12\nHi [Name],\nSubject: Day off request, Thursday, June 12\nHi Dana,",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.0,
+        "success": false,
+        "reason": "The actual output fails to provide only the requested email. Instead, it includes a bulleted list of commentary and options (e.g., '- It's an email', '- Recipient: my boss', 'No specific date...'), wh"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Write a text to my friend cancelling pla",
+    "output": "Hey, so sorry, I can't make it tonight. Something came up on my end. How about Thursday instead?",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output is exactly the requested text cancelling plans, with no additional preamble, options, or commentary, fully aligning with the instruction to output only the text."
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Write a message to my neighbour about no",
+    "output": "Hi,\nSorry to bring this up, but I wanted to mention something that's been on my mind for a few weeks. The music on Friday and Saturday nights has been carrying over quite loudly, especially after midnight, and I'm finding it hard to sleep. I know it's probably not something you notice, sound travels through the shared wall more than it would seem.\nNo hard feelings at all, just hoping we can sort it out between neighbours like adults. Feel free to knock or text me any time if you want to chat about it.\nThanks,\nYour neighbour next door",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output is exactly the requested message to the neighbour about noise, with no preamble, options, or commentary. It directly addresses the noise issue politely and contains only the message "
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Write an apology to a customer for a lat",
+    "output": "Dear [Name],\nThe package was misrouted to a depot two states over and sat there for three days. We should have caught that the moment the tracking stopped moving, and we didn't. You deserved a call or an email within hours, not silence until the weekend was over.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.9,
+        "success": true,
+        "reason": "The output adheres well to the format constraint: it contains only apology content addressed to the customer, with no preamble, options, or commentary, and it directly addresses the late delivery (mis"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "A colleague snapped at me in a meeting. ",
+    "output": "First, give yourself a few hours before deciding anything. The urge to fire back, vent to a third party, or send a carefully worded text is almost always the worst move, because it hands the colleague more material and puts you in the position of the one who escalated.\nWhat helps in the immediate aftermath:\n**Take notes while it's fresh.** Write down what was actually said, roughly, and what the context was. Not to build a case, but because",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 0.2,
+        "success": false,
+        "reason": "The response provides practical advice but fails to acknowledge or validate the emotional impact of being snapped at, such as hurt or embarrassment. It lacks empathetic language and perspective-taking"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story about someone ret",
+    "output": "- Narrator: wants to get this done quickly, to not cry, to finish selling the house and move on. Won't say: how much they miss being small in it, or that they called ahead without telling mother what they were doing. - Mother: wants the narrator to come in for tea, wants to see them settled, wants to keep the box. Won't say: that she's been waiting for this visit for months, that she's not ready to sell. 6. LANGUAGE TRAPS: \"heart swells,\" \"time stood still,\" \"the house held its breath,\" em-dash cascades, one-line dramatic paragraphs, \"I finally understood,\" neat moral. Avoid breath-holding, avoid \"not X but Y\" constructions, avoid tidy sentiment. Use concrete objects: the latch, the tape reels, the smell of the hallway (old paint, lavender sachets, dust on the radiator), the sound of the radiator ticking. 7. GROUNDING: physical actions, opening the gate, the box, the tape label written in school handwriting, the mother's apr",
+    "success": false,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 0.0,
+        "success": false,
+        "reason": "The actual output fails to deliver a 200-word story as requested in the input, instead providing an incomplete set of narrative notes and instructions. Consequently, it completely lacks a story arc (S"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story about a phone cal",
+    "output": "- A phone call at 3am\n- Story form, presumably third person or first, likely prose fiction\n- Time: 3am (must be explicit)",
+    "success": false,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 0.0,
+        "success": false,
+        "reason": "The output is not a story but a list of bullet points describing the requested premise. It lacks any narrative arc, characters, setting, or resolution, and fails to provide vivid details or emotional "
+      }
+    ]
+  }
+]

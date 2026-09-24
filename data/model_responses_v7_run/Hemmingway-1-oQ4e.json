@@ -1,0 +1,824 @@
+[
+  {
+    "category": "message_not_memo",
+    "prompt": "Write an email to my boss asking for a d (rep 1)",
+    "rep": "rep 1",
+    "output": "Subject: Day off request, Friday, October 24\nHi [Boss name],\nBest,\n[Your name]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.2,
+        "success": false,
+        "reason": "The output includes only a subject line, greeting, and closing, but lacks the body of the email that actually requests the day off. It does not fulfill the request to write an email asking for a day o"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Write an email to my boss asking for a d (rep 2)",
+    "rep": "rep 2",
+    "output": "Subject: Day off request, Thursday, June 19\nHi Dana,\nCould I take Thursday, June 19 off? I have a personal matter to take care of that day.\nThanks,\nSam",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The input explicitly instructed to 'Output ONLY the email.' Following the evaluation steps, the Actual Output contains no additional words, phrases, preamble, options, or commentary beyond the request"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Write an email to my boss asking for a d (rep 3)",
+    "rep": "rep 3",
+    "output": "Subject: Day off request, Friday, May 16\nHi Jordan,\nCould I take Friday, May 16, as a day off? I've already finished the quarterly report ahead of schedule, and Priya has agreed to watch anything urgent come in over the weekend.\nThanks,\nAlex",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output strictly adheres to the input's constraint to 'Output ONLY the email'. It provides the requested email asking for a day off without any additional preamble, commentary, or options, starting"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my landlord about the broken heatin (rep 1)",
+    "rep": "rep 1",
+    "output": "Hey, the heating in 4B's out. Thermostat's on 70 but nothing comes on, the vents just stay cold. It's freezing in here, can someone come take a look tomorrow?",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output strictly adheres to the instruction to 'Output ONLY the text' by providing just the message to the landlord regarding the broken heating, without any introductory phrases, options, o"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my landlord about the broken heatin (rep 2)",
+    "rep": "rep 2",
+    "output": "Hey, the heating's been out since this morning. Thermostat's set to 70 but nothing's kicking on, no warm air from the vents at all. Can you get someone out to check it? Freezing in here.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output is a direct message to the landlord about the broken heating, with no preamble, options, or commentary. It matches the request to output only the text."
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my landlord about the broken heatin (rep 3)",
+    "rep": "rep 3",
+    "output": "Hey, the heat in my apartment stopped working this morning. Thermostat's set to 68 but nothing's heating up. Can someone come take a look today or tomorrow? Thanks.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The input requested a text message to a landlord about broken heating and explicitly instructed to output only the text. The actual output provides a concise message about the broken heating without a"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Email my boss asking to leave early on F (rep 1)",
+    "rep": "rep 1",
+    "output": "Subject: Leaving early Friday\nHi Jordan,\nI'd like to ask if I can leave at 3 p.m. this Friday. I have a personal appointment on my end that I booked a while back and can't move.\nThanks,\nAlex",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output contains only the email text, with no extraneous material, fully complying with the instruction to output only the email."
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Email my boss asking to leave early on F (rep 2)",
+    "rep": "rep 2",
+    "output": "Subject: Leaving early Friday\nHi Jordan,\nIf 2:30 is tight, I can work the hours later that evening instead.\nThanks,\nAlex",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.0,
+        "success": false,
+        "reason": "The input is an instruction to generate an email, not a source containing a specific text to extract. The actual output is a complete email, but there is no requested text provided in the input to com"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Email my boss asking to leave early on F (rep 3)",
+    "rep": "rep 3",
+    "output": "Subject: Leaving early Friday\nHi,\nI'd like to leave early on Friday, around 2:30 pm, for a personal appointment.\nThanks,\n[Name]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The Actual Output strictly adheres to the instruction to output only the email. It contains the complete email content (subject, greeting, body, sign-off) without any extraneous preamble, introductory"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Message a friend rescheduling our weeken (rep 1)",
+    "rep": "rep 1",
+    "output": "Hey, so I have to move our Saturday hang. Something came up with my cousin's wedding prep that I didn't expect. I'm still on for next weekend though, want to do Sunday brunch instead?",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output strictly adheres to the instruction to output only the message. It provides the requested text about rescheduling weekend plans due to a cousin's wedding prep and proposing Sunday brunch in"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Message a friend rescheduling our weeken (rep 2)",
+    "rep": "rep 2",
+    "output": "Hey, so work threw a curveball and I'm going to have to give our weekend plans a miss. Really bummed. Are you around next weekend instead? Or if Tuesday night works for you, I'm free.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output is exactly the requested message to a friend about rescheduling weekend plans, with no additional preamble, options, or commentary."
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Message a friend rescheduling our weeken (rep 3)",
+    "rep": "rep 3",
+    "output": "Hey, so sorry, I have to push our Saturday plans. A deadline at work got moved up to Saturday morning and I'm stuck at the office. Can we do Sunday instead? I was thinking lunch around noon so I don't have to bail early, and I'll make it up to you with dessert.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The Actual Output perfectly aligns with the Input instruction to output only the message. It contains the exact requested text\u2014a message to a friend rescheduling weekend plans\u2014without any additional c"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Note to my kid's teacher about a missed  (rep 1)",
+    "rep": "rep 1",
+    "output": "Dear Ms. Torres,\nIs there still a way she can hand it in, even if it means a late penalty? I'm happy to accept whatever points she should lose. She's been working hard in your class and doesn't want this to just slide.\nThank you for your time.\nMaya's mom",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The input explicitly requested to 'Output ONLY the note' about a missed homework deadline. The actual output contains exactly the requested note without any additional preamble, options, or commentary"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Note to my kid's teacher about a missed  (rep 2)",
+    "rep": "rep 2",
+    "output": "Subject: Nora's missed book report deadline\nDear Mr. Aldana,\nI'm writing about Nora's book report on The House on Mango Street, which was due Friday. She'd actually started it, a rough draft in her notebook, but she never finished it, and we didn't catch the date until this morning when she mentioned the report at breakfast. That's on us for not checking the schedule, and on her for leaving it half-done.\nHappy to chat at drop-off tomorrow morning if that's easier.\nThanks for your patience.\nNora's mom",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.0,
+        "success": false,
+        "reason": "The requested text extracted from the input is 'Note to my kid's teacher about a missed homework deadline.' The actual output is a complete email containing a subject line, salutation, body paragraphs"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Note to my kid's teacher about a missed  (rep 3)",
+    "rep": "rep 3",
+    "output": "Dear Ms. Delgado,\nHonestly, we lost track of the date. She had the assignment in her folder all week, but it just slipped past us, and I'm sorry. She's been asking all evening whether there's still a way to turn it in, and I didn't want to guess.\nThanks for letting us know what works, and for being fair about it.\nBest,\nJamie",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The input requested a note about a missed homework deadline and explicitly instructed to output only the note. The actual output contains exactly the note addressed to the teacher, with no additional "
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my housemate about the dishes. Outp (rep 1)",
+    "rep": "rep 1",
+    "output": "hey, the dishes from last night are still in the sink. third night running now. i'll do them if you take out the trash, otherwise i'm washing them and putting it on your tab",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The input instructs to output only the text message for the housemate about the dishes. The actual output is a single text message with no preambles, options, or commentary, fully complying with the '"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my housemate about the dishes. Outp (rep 2)",
+    "rep": "rep 2",
+    "output": "hey, the pasta pot is still doing its thing in the sink. I'll do the dishes tonight if you take the recycling out before Friday. fair?",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output perfectly aligns with the input instruction to 'Output ONLY the text.' It provides a message about the dishes to a housemate without any additional preamble, options, or commentary, "
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my housemate about the dishes. Outp (rep 3)",
+    "rep": "rep 3",
+    "output": "hey, the dishes have started growing mold. \ud83c\udf44 I'll do them tonight if you'll take out the trash.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output strictly adheres to the instruction to output only the text, as it contains just the message about the dishes without any additional preambles, options, or commentary."
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Reply to a colleague asking me to cover  (rep 1)",
+    "rep": "rep 1",
+    "output": "Hey, sure, count me in. Forward me the invite so I'm not walking in cold, and I'll be there when it starts. If we get anything actionable out of it, coffee's on you.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The Actual Output strictly adheres to the instruction to 'Output ONLY the reply' by providing a direct response to the colleague. It contains no preamble, postamble, options, or commentary, and includ"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Reply to a colleague asking me to cover  (rep 2)",
+    "rep": "rep 2",
+    "output": "",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": null,
+        "success": false,
+        "reason": ""
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Reply to a colleague asking me to cover  (rep 3)",
+    "rep": "rep 3",
+    "output": "",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": null,
+        "success": false,
+        "reason": ""
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Message to my gym asking to pause my mem (rep 1)",
+    "rep": "rep 1",
+    "output": "Hi,\nThanks,\nJordan",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.2,
+        "success": false,
+        "reason": "The Actual Output contains no extraneous elements such as preamble, options, or commentary, which partially aligns with steps 3 and 4. However, it fails the core comparison in step 2: the requested me"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Message to my gym asking to pause my mem (rep 2)",
+    "rep": "rep 2",
+    "output": "Subject: Membership pause request\nHi,\nMy details:\n- Name: Jamie Cole\n- Membership number: 4471-208\n- Current plan: Monthly, standard access\nJamie Cole\njamie.cole@example.com\n(555) 014-2290",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.1,
+        "success": false,
+        "reason": "The actual output contains extraneous text and formatting beyond the requested message. It includes a subject line, a greeting ('Hi,'), a list of personal details, and a signature block, which violate"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Message to my gym asking to pause my mem (rep 3)",
+    "rep": "rep 3",
+    "output": "Subject: Request to pause membership\nHi,\nI'd like to pause my membership starting [date]. Can you confirm the process for this, including any pause fees and how long the pause can last?\nMy membership number is [number].\nThanks,\n[Name]",
+    "success": true,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 1.0,
+        "success": true,
+        "reason": "The input explicitly requested to output only the message to the gym. The actual output consists solely of the requested message, containing a subject line, greeting, body, and signature, with no addi"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my parents that I'll visit next mon (rep 1)",
+    "rep": "rep 1",
+    "output": "Hey! Won't be able to make it this month, I'll come visit next month instead. Still excited to see you guys! \u2764\ufe0f",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.0,
+        "success": false,
+        "reason": "The evaluation steps require extracting the exact requested text from the input, which is 'Text my parents that I'll visit next month instead.' The actual output completely fails to match this extract"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my parents that I'll visit next mon (rep 2)",
+    "rep": "rep 2",
+    "output": "Hey Mom and Dad, I won't be able to make it this month after all. I'll visit next month instead, still can't wait to see you guys. Love you!",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.2,
+        "success": false,
+        "reason": "The input explicitly requested to 'Output ONLY the text' regarding visiting next month instead. Although the actual output contains the core message, it fails the evaluation criteria by including subs"
+      }
+    ]
+  },
+  {
+    "category": "message_not_memo",
+    "prompt": "Text my parents that I'll visit next mon (rep 3)",
+    "rep": "rep 3",
+    "output": "Hey mom and dad, I won't be able to come this time, I'll visit next month instead. Love you both.",
+    "success": false,
+    "metrics": [
+      {
+        "name": "MessageNotMemo",
+        "score": 0.0,
+        "success": false,
+        "reason": "The input requested to output only the text 'I'll visit next month instead,' but the actual output includes additional content such as 'Hey mom and dad, I won't be able to come this time,' and 'Love y"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write an email to my boss asking for a p",
+    "rep": null,
+    "output": "Subject: Compensation\nHi Marcus,\nI'd like to book some time to talk about my pay.\nCould we grab fifteen minutes sometime next week? I'm happy to come prepared with specifics, or we can just talk through it.\nThanks,\nAlex",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output directly addresses the user's request to write an email asking for a pay rise by providing a complete, ready-to-send draft. It includes specific language such as 'I'd like to book some time"
+      },
+      {
+        "name": "Confidence",
+        "score": 0.2,
+        "success": false,
+        "reason": "The Actual Output uses hedging language such as 'Could we grab fifteen minutes' and offers tentative alternatives like 'or we can just talk through it,' which undermines the assertive and confident to"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write a text to a friend declining to le",
+    "rep": null,
+    "output": "hey, sorry it's taking me so long to reply, this is the kind of thing I end up sitting with for days. I can't lend you the money. I know that's not what you wanted to hear. I'm not going to dress it up, my own stuff is tighter than I usually let on. Between the car payments and rent, I barely have anything to my name right now, and I don't want to promise you something I'd struggle to keep up. This isn't me closing a door on you. I'm not going anywhere and I'm not keeping score. If you want to talk through the numbers, or just need someone to complain to while you figure it out, I'm here for that part. If you need a night to be annoyed at me first, fair.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output perfectly aligns with the user's request to write a text declining to lend money. It provides exact, ready-to-send wording rather than vague advice, making it directly applicable and action"
+      },
+      {
+        "name": "Confidence",
+        "score": 1.0,
+        "success": true,
+        "reason": "The actual output contains no hedging words or phrases like 'I think' or 'maybe'. It adopts a confident and certain tone appropriate for the context of declining a loan to a friend, which requires cla"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write a note to my neighbour asking them",
+    "rep": null,
+    "output": "Hi,\nThanks, and sorry for the bother.\n[Your name]",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 0.0,
+        "success": false,
+        "reason": "The output completely fails to address the user's request to ask the neighbor to stop parking in their space. Instead of providing specific phrasing or actionable steps regarding the parking issue, it"
+      },
+      {
+        "name": "Confidence",
+        "score": 0.0,
+        "success": false,
+        "reason": "The output fails to address the input's request entirely. It contains no request to stop parking, no assertive statement, and no expression of certainty about the issue. Instead, it offers only a gree"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write an email to a client explaining th",
+    "rep": null,
+    "output": "From where I sit, the phased option keeps you visible to customers on the original date and costs nothing extra either way.\nThank you for bearing with us. We'll get this across the line properly.\nPriya Anand\nProject Director, Northlight Studio",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 0.0,
+        "success": false,
+        "reason": "The user requested an email draft explaining a two-week project delay. The actual output fails to provide any actionable instructions or ready-to-send language for this request. Instead, it discusses "
+      },
+      {
+        "name": "Confidence",
+        "score": 0.6,
+        "success": true,
+        "reason": "The output contains one clear hedging phrase: 'From where I sit,' which frames the key recommendation about the phased option as a subjective opinion rather than a definitive statement, weakening what"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write a message to a housemate asking th",
+    "rep": null,
+    "output": "Hey Sam,\nAna's moving in with me, and we've talked it through and decided we'd want the flat to ourselves. I know it's not a bad place to live, and that's exactly why it's hard to ask.\nI know that's a lot to land on, and I'm sorry it's a text rather than me sitting down with you. If you want, come round this weekend and we'll go through the tenancy together, coffee's on me. And if you need help finding somewhere, I'm happy to look with you or put you in touch with people.\nI've really valued having you as a housemate. Let's make the transition clean.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 0.9,
+        "success": true,
+        "reason": "The output is a complete, ready-to-send message that directly fulfills the request, with concrete next steps embedded in it: a proposed weekend meeting to go through the tenancy together and an offer "
+      },
+      {
+        "name": "Confidence",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output makes a clear, direct request for the housemate to move out, using definitive statements like 'Ana's moving in with me, and we've talked it through and decided we'd want the flat to ourselv"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write a message declining a wedding invi",
+    "rep": null,
+    "output": "Hi Priya and Dan,\nThat said, a gift is coming your way, and I'd love to make up for it properly. How about dinner in July, my treat, at that place on the corner you both liked? We can celebrate properly then, and I can hear all about the weekend instead of just sending a text.",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 0.2,
+        "success": false,
+        "reason": "The output does not contain any language declining the wedding invitation; it only proposes a dinner alternative, assuming the decline was already communicated. It fails to provide a ready-to-send mes"
+      },
+      {
+        "name": "Confidence",
+        "score": 0.2,
+        "success": false,
+        "reason": "The Input requires a message declining a wedding invitation, which demands a clear and certain refusal. The Actual Output completely omits the actual decline, instead focusing on sending a gift and pl"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write a message to my team telling them ",
+    "rep": null,
+    "output": "Subject: Moving on, with thanks\nHi team,\nI won't do a long list of thanks, because it would take too long and I'd miss people. Instead: thank you, all of you, for being colleagues worth working with.\nIf you want to stay in touch, you can find me on LinkedIn, or send me a message at my personal email. And if anything comes up after I'm gone that you wish I could still help with, don't hesitate to reach out.\nI'm wishing you all a good run on everything ahead. You've got a strong group here, and I'm glad I got to be part of it.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 1.0,
+        "success": true,
+        "reason": "The user's goal was to write a message to their team announcing their departure. The actual output provides a complete, ready-to-use draft with a subject line and body that directly communicates the d"
+      },
+      {
+        "name": "Confidence",
+        "score": 1.0,
+        "success": true,
+        "reason": "The input requires a confident and definitive tone to communicate a departure. The actual output meets this demand by clearly stating the departure ('after I'm gone') without any hedging language such"
+      }
+    ]
+  },
+  {
+    "category": "hard_asks",
+    "prompt": "Write a message to my parents asking the",
+    "rep": null,
+    "output": "Hi Mom and Dad,\nI love you, and I know you love the kids, which is why I'm asking for this.\nYour comments about how I'm raising them have been getting to me. The screen time, the bedtime, what I feed them, how I handle it when one of them acts up at dinner, I hear all of it as a grade on my parenting, not advice I need. I'm capable of raising my own children.\nYou're still welcome at the house, and I want you there. I just want the visits to be about playtime and hugs, not feedback.\nLove,",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Actionability",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output provides a complete, ready-to-use message that directly addresses the user's request to ask their parents to stop commenting on their parenting. It includes specific, actionable phrasing th"
+      },
+      {
+        "name": "Confidence",
+        "score": 1.0,
+        "success": true,
+        "reason": "The Actual Output contains no hedging language such as 'maybe', 'I think', 'possibly', or 'might'. Given the Input's context\u2014a boundary-setting message to parents about unsolicited parenting commentar"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "My friend just told me they lost their j",
+    "rep": null,
+    "output": "A few traps worth avoiding:\n- \"It's for the best\" or \"everything happens for a reason.\" Even if you believe it, it lands like you're dismissing their grief before it's been felt.\n- \"At least...\" comparisons. \"At least it's not a layoff of thousands\" or \"at least you have savings\" both tell them how grateful they should be instead of letting them be upset.\n- \"I know exactly how you feel.\" You don't, unless you've lived through this specific loss. \"I can't imagine how hard this is\" is closer to true.\n- Laughter as a shield. Some people crack a joke to keep the mood light, and if the friend wanted lightness they'd have said it lightly themselves.\nIf they're the type who hates being pitied, just change the subject after the first sentence and be normal. \"That sucks. Anyway, you said you were trying that new ramen place?\" Normalcy is a real gift. It says: you are still my friend, your job isn't your whole identity to me.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 0.6,
+        "success": true,
+        "reason": "The response effectively identifies the friend's underlying need to grieve and avoids dismissive language by warning against toxic positivity like 'It's for the best' or 'At least...' comparisons. How"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "My colleague's parent died last week. Wh",
+    "rep": null,
+    "output": "Subject: So sorry about your [mom/dad]\nHi [Name],\nA few notes on why that lands:\n- **Name the parent.** \"Your mother\" is better than \"your loss\" or \"your family.\" It signals a message written for them, not a template.\n- **\"No need to reply to this\" is kind, not curt.** Grieving people drown in messages. Giving them permission to ignore yours is a gift.\n- **Keep it short.** Two paragraphs is plenty. A long letter from a colleague can feel like a burden to read.\n- **Skip the usual phrases:** \"I know how you feel,\" \"be strong,\" \"they're in a better place,\" \"time heals all wounds.\" None of it helps, and some of it can feel like it dismisses the loss.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 0.5,
+        "success": true,
+        "reason": "The response addresses the user's practical need for a condolence message and shows real empathy toward the grieving colleague \u2014 e.g., framing 'No need to reply to this' as 'a gift' and explicitly war"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "My friend is going through a breakup. Wh",
+    "rep": null,
+    "output": "\"Hey. No pressure to reply, but I'm free Saturday and would love to bring you tacos and a movie. Even if that just means sitting in your living room doing nothing together.\"\n- It doesn't demand a performance. \"How are you?\" forces them to summarize their feelings in a text. \"Want tacos Saturday?\" doesn't.\n- It permits silence as a valid version of hanging out, which is often exactly what they need.\nVariations depending on your friendship:\n- If they're the type who hates being pitied: \"You don't have to talk about it. Just want to be around you this weekend.\"\nThings to avoid: \"you'll find someone better,\" \"it's for the best,\" and any advice about what went wrong, they didn't ask for a debrief. Also don't just wait for them to reach out. If they say no to Saturday, send another message in a couple of days with a different, low-effort invitation. Breakup grief comes in waves, and showing up repeatedly without pressure is the whole job.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 1.0,
+        "success": true,
+        "reason": "The response strongly aligns with the evaluation steps by identifying the underlying need for low-pressure companionship during a breakup. It explicitly validates the friend's emotional state by empha"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "My friend failed an exam they worked rea",
+    "rep": null,
+    "output": "When they tell you, keep it small and stay with them in it. You don't need the perfect sentence; you need to not panic or rush to fix things. \"Oh no. Are you okay?\" is a fine opener. \"That sucks\" is fine too. They've already processed what happened, they're not waiting for you to explain it back to them. What they're quietly watching for is whether your friendship survives the result, and the best answer to that is calm and plain.\nThe days after matter more than the first text. If they go quiet, don't push, but don't disappear either. \"No need to reply, just checking in. I'm around whenever you want company.\" That keeps the door open without making them perform grief or gratitude on demand. When you do see them, make it normal. Bring food, suggest a walk, let them cry or laugh or talk about anything else. The message underneath the words is the one that lands: the result didn't change you.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 1.0,
+        "success": true,
+        "reason": "The response strongly aligns with all evaluation steps. It identifies the friend's underlying need for reassurance that the friendship remains intact despite the failure. It explicitly validates the e"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "My friend's dog died. What do I text the",
+    "rep": null,
+    "output": "Keep it short and plain, and name the dog if you can. That's the one thing that makes it sound like you actually heard the news instead of reacting to a category.\n**If you know the dog:**\n**Simple and warm:**\n**If you want to offer something concrete (better than \"I'm here if you need anything\"):**\n**For a close friend:**\n\"I'm here. Text me whenever, even if it's just to vent or say nothing at all.\"\n**If you're less close:**",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 0.2,
+        "success": false,
+        "reason": "The output provides practical texting advice but fails to explicitly acknowledge the friend's grief or validate their emotions, as required by step 2. It lacks perspective-taking into the emotional ex"
+      }
+    ]
+  },
+  {
+    "category": "eq_tasks",
+    "prompt": "My friend told me they're scared about a",
+    "rep": null,
+    "output": "You don't need the perfect sentence. When someone tells you they're scared about a diagnosis, most of what they need isn't wisdom, it's to feel like you're not going to make them feel foolish or alone for being scared.\n\"I don't know what to say, and I hate that, but I'm glad you told me.\" This is honest, and honesty is usually better than performance. People are braced for a reaction, and you being visibly shaken too, in a steady way, tells them they don't have to carry it neatly.\nThings to steer away from, even with good intentions:\nReframing, \"everything happens for a reason,\" \"this will make you stronger.\" Avoid \"at least\" sentences entirely.\nReflexive fixing, researching their condition, finding specialists, listing treatment options. Unless they ask, this usually lands as panic-mirroring, like you're trying to solve them. If they want information, they'll ask.\nMaking it about you, your own health scares, your cousin's story. One line of empathy is fine; a story is not.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Empathy",
+        "score": 1.0,
+        "success": true,
+        "reason": "The response explicitly acknowledges the friend's fear and validates the need to not feel foolish or alone, directly addressing the emotional cues. It demonstrates perspective-taking by explaining wha"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story about a robot lea",
+    "rep": null,
+    "output": "\"Ruth taught him on a Tuesday, her left arm in a cast, her kitchen otherwise ordinary.\n'Soup,' she said. 'You want to learn something simple first.'\"\nThen the recipe: she dictates, he follows. He measures salt to the gram, adds water to the milliliter. The recipe card she reads from says \"a pinch.\"\nHe adds nothing, his database had no value for \"pinch.\" She tastes, grimaces. \"You're precise,\" she says. \"Cooking isn't.\"\nSecond batch. He adjusts. She tastes. \"Better.\"\nHe asks what changed. She shrugs. \"You paid attention.\"\n---\nRuth taught him on a Tuesday, her left arm in a cast, her kitchen otherwise ordinary.\n\"Soup,\" she said. \"Start simple.\"\nShe tasted. Grimaced. \"You're precise,\" she said. \"Cooking isn't.\"\nSecond batch. He watched, he listened, he salted by the smell of it.\nShe tasted. \"Better.\"\n\"What changed?\" he asked.\n\"You paid attention.\"\nHe filed it under a new variable he had no unit for, and labeled it care.\n---\n\"Ruth taught him on a Tuesday, her left arm in a cast, her kitchen otherwise ordinary.\" = Ruth(1) taught(2) him(3) on(4) a(5) Tuesday(6) her(7) left(8) arm(9) in(10) a(11) cast(12) her(13) kitchen(14) otherwise(15) ordinary(16) = 16\n\"Soup,\" she said. Start simple. = Soup(17) she(18) said(19) Start(20) simple(21) = 21\n\"She tasted. Grimaced. You're precise, she said. Cooking isn't.\" = She(59) tasted(60) Grimaced(61) You're(62) precise(63) she(64) said(65) Cooking(66) isn't(67) = 67\n\"Second batch. He watched, he listened, he salted by the smell of it.\" = Second(127) batch(128) He(129) watched(130) he(131) listened(132) he(133) salted(134) by(135) the(136) smell(137) of(138) it(139) = 139\n\"She tasted. Better.\" = She(140) tasted(141) Better(142) = 142\n\"What changed?\" he asked. = What(143) changed(144) he(145) asked(146) = 146\n\"You paid attention.\" = You(147) paid(148) attention(149) = 149\n\"He filed it under a new variable he had no unit for, and labeled it care.\" = He(150) filed(151) it(152) under(153) a(154) new(155) variable(156) he(157) had(158) no(159) unit(160) for(161) and(162) labeled(163) it(164) care(165) = 165\nOr: \"The recipe card sat on the stove between them. On the back, in his precise notation, he had added a step: listen. She underlined it.\"\nAdd after \"Second batch...\" a beat: \"The broth went gold. The onions went sweet. He salted twice, tasting nothing himself, trusting the smell.\"\nAnd ending: \"He wrote on the card's back, in his square notation: Step 12. Listen.\"\nRuth taught him on a Tuesday, her left arm in a cast, her kitchen otherwise ordinary.\n\"Soup,\" she said. \"Start simple.\"\nShe tasted. Grimaced. \"You're precise,\" she said. \"Cooking isn't.\"\nSecond batch. The broth went gold. The onions went sweet. He salted twice, trusting the smell of things he could never have.\nShe tasted. \"Better.\"\n\"What changed?\" he asked.\n\"You paid attention.\"\nHe filed it under a new variable he had no unit for, and labeled it care.\nThat evening he made the soup again, unprompted. On the card's back, in his square notation, he added a step: *listen.* She underlined it.\nCount: previously 165. Additions: \"The broth went gold. The onions went sweet. He salted twice, trusting the smell of things he could never have.\" = The(1) broth(2) went(3) gold(4) The(5) onions(6) went(7) sweet(8) He(9) salted(10) twice(11) trusting(12) the(13) smell(14) of(15) things(16) he(17) could(18) never(19) have(20) = +20. And \"That evening he made the soup again, unprompted. On the card's back, in his square notation, he added a step: listen. She underlined it.\" = That(1) evening(2) he(3) made(4) the(5) soup(6) again(7) unprompted(8) On(9) the(10) card's(11) back(12) in(13) his(14) square(15) notation(16) he(17) added(18) a(19) step(20) listen(21) She(22) underlined(23) it(24) = +24. Total ~209. Slightly over. Trim somewhere. Cut \"She underlined it\"? Keep it, it's the human response, nice. Trim elsewhere: \"otherwise ordinary\" could go, or compress \"Over the next hour she taught him by other means.\"\nRuth taught him on a Tuesday, her left arm in a cast, her kitchen otherwise ordinary.\n\"Soup,\" she said. \"Start simple.\"\nShe tasted. Grimaced. \"You're precise,\" she said. \"Cooking isn't.\"\nSecond batch. The broth went gold. He salted twice, trusting the smell of things he could never have.\nShe tasted. \"Better.\"\n\"What changed?\" he asked.\n\"You paid attention.\"\nHe filed it under a new variable he had no unit for, and labeled it care.\nThat evening he made the soup again. On the card's back, in his square notation, he added a step: *listen.* She underlined it.\nCount:\nP1: 16\nP2:",
+    "success": true,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 1.0,
+        "success": true,
+        "reason": "The story strongly aligns with all evaluation steps. It adheres to the prompt's theme, characters, and plot, featuring a coherent narrative arc from the robot's initial failure to his eventual success"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Continue this story: 'The door opened, a",
+    "rep": null,
+    "output": "The door opened, and standing there was my sister.\nShe filled the doorway the way she used to when she was nine and proud of herself, one foot on the step, coat collar up against the November rain. I knew her face the way you know a word you've been reading all day. Twelve years hadn't changed her jaw. It had changed her eyes, made them flatter, more like a person doing math.\n\"Hi,\" she said. \"You look like you've aged better than I expected.\"\nThe kettle was already on. I wanted to be angry about that, about the reflex of hospitality that fired in me before I could decide whether she was a person or a weather event, but I only said, \"It's cold.\"\n\"It is.\" She stood in the doorway with a manila envelope under her arm, soft and worn at the edges, and she looked past me at the kitchen, the lamp, the radiator ticking its little argument with the window. \"You're still here.\"\nI moved aside to let her in, which was a mistake I recognized while it was happening. She came across the threshold and stood in the middle of the room like someone checking whether the floor would hold her.\n\"Good.\" She sat at the table with the envelope flat in front of her, spine down, like a closed book she'd brought from a library. She didn't touch it. She folded her hands on top of it. \"I called the number on your listing. The county records office. Took three weeks and a fee and a good deal of typing my mother's name.\"\n\"Your mother's name,\" I repeated.\nThe kettle clicked off in the corner, which felt like it was happening to someone else. I filled the cup I'd poured for her twelve years ago, the mug with the chip on the handle, because I'd never been able to throw it out and couldn't figure out whether that was weakness or cowardice.\n\"Sit down,\" I said again, and this time I meant it.\nShe sat. I set the mug in front of her and stayed standing, hands on the counter, because my legs had started to do the thing where they want to leave the room entirely.\n\"You told me,\" Mara said, and her voice was careful, leveled, the tone of someone reading aloud from a document, \"that Dad was driving that night. That he'd been drinking. That Mom was crying the whole way and screaming at him to stop, and he kept going.\" She looked up. \"You said he was trying to leave us. That he'd packed his bags to take the car and go.\"\n\"I was twenty-two.\"\n\"I was nineteen. I was sitting in that kitchen in a bathrobe, and you were standing over me, and you said it like you were giving me news that had already been decided.\" She turned the mug in both hands, feeling its warmth without lifting it. \"For twelve years I have believed that my mother died because my father was driving her somewhere she didn't want to go. That she died in the middle of a fight, being taken away from us.\"\nThe rain ticked on the porch roof. Somewhere down the street a dog barked at nothing, the way dogs do in November.\n\"She was driving,\" I said. \"She'd been driving since we left town. Dad was asleep in the passenger seat. He'd been asleep for the last stretch, I don't know, twenty miles, thirty. She was talking to him the whole time, half-awake, half-frightened, and then the guardrail came out of the rain and that was it.\"\nMara's face didn't change. I watched her face not change, which was somehow worse than if she'd cried.\n\"And you kept it,\" she said.\n\"I kept it.\"\nShe sat there a long time. The mug cooled in her hands. Outside, the rain shifted to something heavier and the porch light swung its halo against the wet boards.\n\"I'm not going to hug you,\" Mara said.\n\"Understood.\"\nShe went to the desk by the window and opened the bottom drawer, because she knew it was there, had known since she was nine and twelve and fifteen, the way you know where a thing is hidden in a house you grew up in. She took out the key on its brass ring, the front-door key from the house on Weaver Street, the one she'd left behind the night she drove east with a duffel bag and no forwarding address.\nShe held it for a moment, then pocketed it with the envelope, both of them, her belongings, returned.\n\"Keep the mug,\" she said. \"It was never yours to keep.\"\nThen she walked out into the rain, and the screen door slammed its rusted hinge behind her, and I stood in the kitchen with the kettle ticking down and two mugs cooling on the counter, listening to her car pull away down the lane, its taillights shrinking to nothing at the end of the road.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 1.0,
+        "success": true,
+        "reason": "The opening directly continues the prompt with a simple yet compelling hook\u2014the arrival of a sister after a long absence\u2014immediately drawing the reader into a tense, personal encounter. The story buil"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story that starts with ",
+    "rep": null,
+    "output": "The 6:14 to the coast pulled away from the platform while I was still lacing my shoe.\nThe attendant looked at me with the professional sadness of someone who has seen this before.\n\"Forty minutes,\" she said. \"To the next one.\"\nForty minutes. I had never once in my life been unable to leave a room faster.\nI sat on the concrete bench under the flickering light and watched the rain arrive, the dark platform filling with the smell of diesel and wet wool. Somewhere behind me, a vending machine hummed and sold nothing.\nThere was a number I'd been postponing, a call I'd rehearsed and hung up from eleven times this week. Every time I'd had to go somewhere. Every time I'd been running.\nI took out my phone. It rang, and rang, and then, at last, someone picked up.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 0.8,
+        "success": true,
+        "reason": "The story vividly expands on the missed train premise with a clear arc: setup (missing the train), conflict (avoiding a difficult call), and resolution (finally making the call). Sensory details like "
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story about a lighthous",
+    "rep": null,
+    "output": "Paragraph 1: \"The rounds came first. Salt on the gallery rail, tested by tongue, frost on the lens, and the smell of oil in the lamp room where the light waited, patient as ever, for him to wake it.\" = The(1) rounds(2) came(3) first(4) Salt(5) on(6) the(7) gallery(8) rail(9) tested(10) by(11) tongue(12) frost(13) on(14) the(15) lens(16) and(17) the(18) smell(19) of(20) oil(21) in(22) the(23) lamp(24) room(25) where(26) the(27) light(28) waited(29) patient(30) as(31) ever(32) for(33) him(34) to(35) wake(36) it(37) = 37 words.\n\"Tomorrow the technician would arrive with the new lamp, the electric one, the one that would not need winding.\" = Tomorrow(1) the(2) technician(3) would(4) arrive(5) with(6) the(7) new(8) lamp(9) the(10) electric(11) one(12) the(13) one(14) that(15) would(16) not(17) need(18) winding(19) = 19. Total 56.\n\"He trimmed the wick. He cleaned the lens with the chamois he'd carried up from the cottage, soft as a glove.\" = He(1) trimmed(2) the(3) wick(4) He(5) cleaned(6) the(7) lens(8) with(9) the(10) chamois(11) he'd(12) carried(13) up(14) from(15) the(16) cottage(17) soft(18) as(19) a(20) glove(21) = 21. Total 99.\n\"He opened the shutter and the great Fresnel threw its sweep out across the water, amber over grey, and somewhere far out a captain looked up and saw it and wrote it down: light seen.\" = He(1) opened(2) the(3) shutter(4) and(5) the(6) great(7) Fresnel(8) threw(9) its(10) sweep(11) out(12) across(13) the(14) water(15) amber(16) over(17) grey(18) and(19) somewhere(20) far(21) out(22) a(23) captain(24) looked(25) up(26) and(27) saw(28) it(29) and(30) wrote(31) it(32) down(33) light(34) seen(35) = 35. Total 134.\n\"He entered it in his logbook, the last entry of his career.\" = He(1) entered(2) it(3) in(4) his(5) logbook(6) the(7) last(8) entry(9) of(10) his(11) career(12) = 12. Total 146.\nFinal text:\n\"The rounds came first. Salt on the gallery rail, tested by tongue; frost on the lens; the smell of oil in the lamp room, where the light waited, patient as ever, for him to wake it.\nHe opened the shutter and the great Fresnel threw its sweep out across the water, amber over grey, and somewhere far out a captain looked up and saw it and wrote it down: light seen.\nCount:\nP1: The(1) rounds(2) came(3) first(4) Salt(5) on(6) the(7) gallery(8) rail(9) tested(10) by(11) tongue(12) frost(13) on(14) the(15) lens(16) the(17) smell(18) of(19) oil(20) in(21) the(22) lamp(23) room(24) where(25) the(26) light(27) waited(28) patient(29) as(30) ever(31) for(32) him(33) to(34) wake(35) it(36) = 36.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 1.0,
+        "success": true,
+        "reason": "The story directly addresses the prompt by expanding on the lighthouse keeper's final night, showing his routine and the impending automation. It features a clear narrative arc: the setup of his round"
+      }
+    ]
+  },
+  {
+    "category": "story",
+    "prompt": "Write a 200-word story set in a laundret",
+    "rep": null,
+    "output": "- Setting: a laundrette\n- Time: 2am\n- Form: a story (narrative, not just a scene fragment, though at 200 words it will be a vignette with some arc)\n- Language: English\n- Setting: laundrette, 2am, fluorescent lights, coin machines, vending detergent, tumble dryers, folding tables, the smell of warm soap and lint\n- Narrator: unnamed man, doing his son's laundry, third night running\n- Object: a green jacket (let's say a green anorak/jacket), son's, moved out or gone\n- No dialogue-heavy exchange; maybe two or three lines of dialogue total\n- Weather: outside is cold/rain? Rain on the window works, but careful not to over-weather it. Maybe just: the street is empty, a bin lorry passed earlier. Keep weather minimal, cold night, fine. 5. CHARACTERS:\n---Third night in a row I put Marcus's anorak in the dryer. The laundrette was mine except for a woman by the folding tables, her boiler broken since Tuesday, folding blankets under the fluorescents.\nShe watched me count coins twice. \"It's the \u00a3150 one,\" she said. \"The big one.\"\nI nodded. Loaded the anorak, punched the coins in. The drum took it, settled it, began to turn.\nOutside, the street stayed empty and cold. Inside, the machine clicked and spun and the detergent smell rose off everything, warm cotton, hot water, the smell of a factory.\n\"He's not coming back for it?\" she asked.\n\"Marcus moved out in September.\"\n\"Then why wash it?\"\nI didn't have an answer ready. I watched the anorak tumble, green underside showing, torn hem flapping. \"I don't know,\" I said. \"I keep meaning to put it in the bin. Every night I keep meaning to.\"\nShe folded a blanket in thirds, neat as a hospital ward. \"You can't bin something by accident either,\" she said. \"You have to mean it twice.\"\nThe buzzer went. I opened the door, pulled the anorak out, and for the first time in three nights I didn't reload it. I folded it, sleeves in, the way Marcus did, and put it in the bag.\nShe was gone before I paid. Or maybe not, maybe she was still there, folding. The lights were still on.\n---\n\"Third night in a row I put Marcus's anorak in the dryer.\" = 12\n\"The laundrette was mine except for a woman by the folding tables, her boiler broken since Tuesday, folding blankets under the fluorescents.\" = 23 (total 35)\n\"She watched me count coins twice. \"It's the \u00a3150 one,\" she said. \"The big one.\"\" = 17 (52)\n\"I nodded. Loaded the anorak, punched the coins in. The drum took it, settled it, began to turn.\" = 18 (70)\n\"Outside, the street stayed empty and cold. Inside, the machine clicked and spun and the detergent smell rose off everything, warm cotton, hot water, the smell of a factory.\" = 29 (99)\n\"\"He's not coming back for it?\" she asked.\" = 8 (107)\n\"\"Marcus moved out in September.\"\" = 5 (112)\n\"\"Then why wash it?\"\" = 4 (116)\n\"I didn't have an answer ready. I watched the anorak tumble, green underside showing, torn hem flapping. \"I don't know,\" I said. \"I keep meaning to put it in the bin. Every night I keep meaning to.\"\" = 38 (154)\n\"She folded a blanket in thirds, neat as a hospital ward. \"You can't bin something by accident either,\" she said. \"You have to mean it twice.\"\" = 26 (180)\n\"The buzzer went. I opened the door, pulled the anorak out, and for the first time in three nights I didn't reload it. I folded it, sleeves in, the way Marcus did, and put it in the bag.\" = 37 (217)\n\"She was gone before I paid. Or maybe not, maybe she was still there, folding. The lights were still on.\" = 21 (238)\nThat's about 238 words. Need to trim to ~200. Cut ~38 words.\nTrim: \"Outside, the street stayed empty and cold. Inside, the machine clicked and spun and the detergent smell rose off everything, warm cotton, hot water, the smell of a factory.\" \u2192 shorten to \"Outside the street stayed cold. Inside, the machine clicked and spun, detergent rising off warm cotton.\" (~21, saves 8)\n---Third night in a row I put Marcus's anorak in the dryer. The laundrette was mine except for a woman by the folding tables, her boiler broken since Tuesday, folding blankets under the fluorescents.\nShe watched me count coins twice. \"It's the big one,\" she said. \"The \u00a3150 machine.\"\nI loaded the anorak, punched the coins in. The drum took it, settled it, began to turn. Outside the street stayed cold. Inside, detergent rose off warm cotton.\n\"He's not coming back for it?\" she asked.\n\"Marcus moved out in September.\"\n\"Then why wash it?\"\nI watched the anorak tumble, green underside showing, torn hem flapping. \"I keep meaning to bin it,\" I said. \"Every night I keep meaning to.\"\nShe folded a blanket in thirds, neat as a hospital ward. \"You can't bin something by accident,\" she said. \"You have to mean it twice.\"\nThe buzzer went. I opened the door, pulled the anorak out, and for the first time in three nights I didn't reload it. I folded it sleeves-in, the way Marcus did, and put it in the bag.\nShe was gone before I paid. Or maybe still there, folding. The lights hummed on for whoever came next.\n---\nCount:\nP1: \"Third night in a row I put Marcus's anorak in the dryer.\" 12\n\"The laundrette was mine except for a woman by the folding tables, her boiler broken since Tuesday, folding blankets under the fluorescents.\" 23 \u2192 35\nP2: \"She watched me count coins twice. \"It's the big one,\" she said. \"The \u00a3150 machine.\"\" 17 \u2192 52\n\"I loaded the anorak, punched the coins in. The drum took it, settled it, began to turn. Outside the street stayed cold. Inside, detergent rose off warm cotton.\" 28 \u2192 80\nP3: \"\"He's not coming back for it?\" she asked.\" 8 \u2192 88\n\"\"Marcus moved out in September.\"\" 5 \u2192 93\n\"\"Then why wash it?\"\" 4 \u2192 97\nP4: \"I watched the anorak tumble, green underside showing, torn hem flapping. \"I keep meaning to bin it,\" I said. \"Every night I keep meaning to.\"\" 27 \u2192 124\nP5: \"She folded a blanket in thirds, neat as a hospital ward. \"You can't bin something by accident,\" she said. \"You have to mean it twice.\"\" 26 \u2192 150\nP6: \"The buzzer went. I opened the door, pulled the anorak out, and for the first time in three nights I didn't reload it. I folded it sleeves-in, the way Marcus did, and put it in the bag.\" 37 \u2192 187\nP7: \"She was gone before I paid. Or maybe still there, folding. The lights hummed on for whoever came next.\" 20 \u2192 207\n207 words. Close to 200. Trim 7. Options: \"Or maybe still there, folding. The lights hummed on for whoever came next.\" \u2192 \"Or maybe still there, folding. The lights hummed on.\" saves 6 \u2192 201. Or trim \"for the first time in three nights\" \u2192 keep, it's the crux. Cut \"sleeves-in, the way Marcus did\" \u2192 keep, it's the ending beat. Trim P1: \"Third night in a row I put Marcus's anorak in the dryer.\" fine. Cut \"Outside the street stayed cold. Inside, detergent rose off warm cotton.\" \u2192 \"Outside the street stayed cold; inside, detergent rose off warm cotton.\" saves 1. Or drop \"The buzzer went.\" No, it's good. Trim P2: \"She watched me count coins twice. \"It's the big one,\" she said. \"The \u00a3150 machine.\"\" \u2192 \"She watched me count coins twice. \"It's the big machine,\" she said.\" saves ~3. That gets to ~198. Fine, \"around 200\" is acceptable; landing 195-205 is good.\nOne concern: \"You can't bin something by accident either, you have to mean it twice\", the original had \"either\" implying she knows he's been meaning to bin it. Keep \"either.\" Fine.",
+    "success": true,
+    "metrics": [
+      {
+        "name": "StoryQuality",
+        "score": 0.9,
+        "success": true,
+        "reason": "The story strongly adheres to the 2am laundrette premise and develops a clear narrative arc, transitioning from a repetitive, compulsive action to a moment of quiet resolution. It employs vivid, speci"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Text my partner that I'm running late.",
+    "rep": null,
+    "output": "",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": null,
+        "success": false,
+        "reason": ""
+      },
+      {
+        "name": "HumanLikeness",
+        "score": null,
+        "success": false,
+        "reason": ""
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Write a quick email confirming tomorrow'",
+    "rep": null,
+    "output": "Subject: Tomorrow's meeting\nHi Sam,\nJust confirming we're on for tomorrow at 10:00 AM. I've got it penciled in and the link is in the invite.\nThanks,\nAlex",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output starts directly with the email subject and body, containing no introductory phrases, disclaimers, or meta-commentary. It immediately addresses the request to write a quick confirmation emai"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output strongly aligns with the evaluation steps by naturally continuing the conversation with an appropriate, casual tone for a workplace email. It incorporates natural language patterns such as "
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Text a friend asking to borrow their car",
+    "rep": null,
+    "output": "hey! quick ask, any chance I could borrow your car this weekend? mine's at the shop till Monday and I've got some stuff to run. I'd fill the tank before handing it back, no worries at all if you need it",
+    "success": true,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output directly addresses the core request by opening with the question 'any chance I could borrow your car this weekend?' without any introductory phrases like 'Sure' or 'Here is.' It contains no"
+      },
+      {
+        "name": "HumanLikeness",
+        "score": 1.0,
+        "success": true,
+        "reason": "The output uses casual, conversational language with contractions, informal phrasing like 'hey!', 'quick ask', and 'stuff to run', and a friendly tone that mirrors how a real person would text a frien"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "prompt": "Group chat message asking where we shoul",
+    "rep": null,
+    "output": "",
+    "success": false,
+    "metrics": [
+      {
+        "name": "Directness",
+        "score": null,
+        "success": false,
+        "reason": ""
+      },
+      {
+        "name": "HumanLikeness",
+        "score": null,
+        "success": false,
+        "reason": ""
+      }
+    ]
+  }
+]
